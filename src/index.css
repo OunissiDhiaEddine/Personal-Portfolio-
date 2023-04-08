@@ -21,7 +21,7 @@
   height: auto;
   top: 20px ; 
   left: 20px;
-  z-index: -5;
+  z-index: -1;
   overflow: visible;
 }
 /* the nav button */
@@ -49,7 +49,7 @@
     
   }
   .menu-btn{
-    position: absolute;
+    position: fixed;
     z-index: 2;
     right: 20px;
     top: 20px;
@@ -255,26 +255,47 @@
 .section2 {
    width: 100vw;
    height: 100vh;
-   z-index: -6;
+   z-index: -5;
    position: relative;
-}
+   }
+
 .about{
   position: absolute;
   color: #f3c026;
    text-shadow: 0px 0px 5px #bb7e29;
    position: absolute;
-   top: 180px;
+   top: 300px;
    left: 150px;
-   font-size: 1000%;
+   font-size: 500%;
    z-index: -5;
    -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
    animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;   
 }
 
 
-
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
+
+/* section 3 */
+.section3 {
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+  position: relative;
+}
+.contact{
+ position: absolute;
+ color: #f3c026;
+  text-shadow: 0px 0px 5px #bb7e29;
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  font-size: 500%;
+  z-index: -5;
+  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;   
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 /* Keyframes */ 
 
@@ -318,3 +339,4 @@
     opacity: 1;
   }
 }
+

@@ -1,7 +1,8 @@
 import { useInView } from 'react-intersection-observer';
 
 const Hometab = () => {
-    const { ref:sec2 , inView:sec2vis} = useInView({delay: 0.3 , });
+    const { ref:sec2 , inView:sec2vis} = useInView();
+    const { ref:sec3 , inView:sec3vis} = useInView();
     return ( 
         <div className='whole'>
         <img src={require('./Pics/logo.png')} className = "logo" alt = "logo" />
@@ -15,6 +16,9 @@ const Hometab = () => {
         </section>
         <section className='section2'ref={sec2}>
             <h1 className= {`${sec2vis ? 'about' :''}`}>About</h1>
+        </section>
+        <section className='section3'ref={sec3}>
+            <h1 className= {`${sec3vis ? 'contact' :''}`}>contact</h1>
         </section>
         </div>  
      );
