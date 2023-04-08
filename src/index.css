@@ -185,7 +185,6 @@
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 /* section 1 + */ 
-
   .section1 {
      width: 100vw;
      height: 100vh;
@@ -245,6 +244,7 @@
  }
  .profile:hover {
   content: url("./Pics/IMG_9794 hover.png");
+  z-index: -5;
  } 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
@@ -253,11 +253,11 @@
 /* section 2 */ 
 .section2 {
    height: 100vh;
-   z-index: -5;
    position: relative;
    margin: 0 ; 
    background-image: url("./Pics/2600_Silver_Background.jpg");
    border-radius: 25px;
+   z-index: -5;
    }
 
 .about{
@@ -267,7 +267,7 @@
    position: absolute;
    font-family: Bignoodle ;
    top: 50px;
-   left: 110px;
+   left: 120px;
    font-size: 500%;
    z-index: -5;
    -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
@@ -276,7 +276,7 @@
 .p1{
   position: absolute;
     top: 190px ; 
-    left: 70px;
+    left: 90px;
     font-size: 270% ;  
     z-index: -5;
   font-family: noodle;
@@ -295,6 +295,7 @@
   font-size: 200% ;  
   z-index: -5;
 font-family: noodle;
+width: fit-content;
 
 	-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
 	        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
@@ -308,9 +309,11 @@ font-family: noodle;
   left: 1100px;
   font-size: 150% ;  
   z-index: -5;
-width: 50px;
+  width: fit-content;
 font-family: noodle;
-width: 50%;
+border-radius: 0;
+margin: 0;
+
 -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
 animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
 }
@@ -322,6 +325,7 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
   left: 1100px;
   font-size: 200% ;  
   z-index: -5;
+  width: fit-content;
 font-family: noodle;
 -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
 animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
@@ -334,6 +338,8 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
   left: 1100px;
   font-size: 150% ;  
   z-index: -5;
+  width: fit-content;
+  
 font-family: noodle;
 -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
 animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
@@ -351,6 +357,7 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
   z-index: -5;
   position: relative;
   margin: 0;
+  z-index: -5;
 }
 .contact{
  position: absolute;

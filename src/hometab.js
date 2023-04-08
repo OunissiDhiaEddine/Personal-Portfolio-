@@ -22,7 +22,7 @@ const Hometab = () => {
             <h2 className={`${sec2vis ? 'h2-1' :''}`} >What i know </h2>
             <p className={`${sec2vis ? 'p2' :''}`}>Html , css , C , Objective C , Swift <br></br>,C# , python ,some Game design skills</p>
             <h2 className={`${sec2vis ? 'h2-2' :''}`}>What i'm learning </h2>
-            <p className={`${sec2vis ? 'p3' :''}`}>Backend development , Graphic design , Video editing , German and English</p>
+            <p className={`${sec2vis ? 'p3' :''}`}>Backend development , Graphic design <br></br>, Video editing , German and English</p>
         </section>
         <section className='section3'ref={sec3}>
             <h1 className= {`${sec3vis ? 'contact' :''}`}>contact</h1>
