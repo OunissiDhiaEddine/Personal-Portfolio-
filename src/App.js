@@ -2,8 +2,6 @@ import Navbar from "./navbar";
 import Hometab from "./hometab";
 
 
-
-
 function App() {
   return (
     <div className="App">
