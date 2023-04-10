@@ -448,15 +448,35 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
   left: 150px;
   font-size: 500%;
   font-family: Bignoodle ;
-  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.3s both;
-  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.3s both ;   
+  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
 }
 .facebook{
   position: absolute; 
-  top: 300px;
-  left: 400px ;
-  background-image: url("./Pics/Facebook_Logo.png");
+  top: 335px;
+  left: 500px ;
+  width: 100px;
+  height: 100px;
+  size: 40%;
+  cursor: pointer;
+  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
+.twitter{
+  position: absolute; 
+  top: 335px;
+  left: 700px ;
+  width: 100px;
+  height: 100px;
+  size: 40%;
+  cursor: pointer;
+  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+}
+
+
+
+
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 /* Keyframes */ 

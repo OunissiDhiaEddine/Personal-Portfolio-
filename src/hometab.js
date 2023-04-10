@@ -29,7 +29,8 @@ const Hometab = () => {
         <div className='section3'ref={sec3}>
            <div className='section3in'> 
            <h1 className= {`${sec3vis ? 'contact' :''}`}>contact</h1> 
-           <img className='facebook'></img>
+            <a href="https://web.facebook.com/didou.archer.420/"><img className= {` ${sec3vis ? 'facebook' :''}`} src={require('./Pics/Facebook_Logo.png')}></img></a>
+            <a href="https://twitter.com/didou_archer"><img className= {` ${sec3vis ? 'twitter' :''}`} src={require('./Pics/twitter_logo.png')}></img></a>
            </div>
            
         </div>
