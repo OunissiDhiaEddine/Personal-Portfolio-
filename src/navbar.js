@@ -9,9 +9,9 @@ const Navbar = () => {
         <label htmlFor="active" className="close" />
         <div className="wrapper">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="sec1">Home</a></li>
+            <li><a href="sec2">About</a></li>
+            <li><a href="sec3">Contact</a></li>
           </ul>
         </div></div>
      );
