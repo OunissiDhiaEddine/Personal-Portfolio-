@@ -22,6 +22,8 @@
   }
 /* the logo */ 
 .logo {
+  background-color: white;
+  border-radius: 3vw;
   position: fixed ;
   width: 5%;
   height: auto;
@@ -30,9 +32,11 @@
   overflow: visible;
   -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
 	        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+  z-index: 2;
 }
 /* the nav bar */
 .nav {
+  background-color: white;
   position: fixed;
   color:  rgba(29,37,58,.9);
   font-family: Bignoodle , sans-serif; 
@@ -42,14 +46,25 @@
   gap: 2vw;
   right: 5vw;
   top: 3vh;
+  z-index: 2;
+  border-radius: 1vw;
+  padding: 1vw;
+
   -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
   animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+
+}
+.nav a:hover {
+  color: #f3c026;
+    text-shadow: 0px 0px 5px #bb7e29;
+  
 }
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 /* section 1 + */ 
   .whole {
     position: relative;
+    z-index: 1;
   }
   .section1 {
      height: 99vh;
