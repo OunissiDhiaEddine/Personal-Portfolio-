@@ -17,8 +17,6 @@
   /* Cursor and all index effect */ 
   *{
     cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
-    margin: 0;
-    padding: 0;
   }
 /* the logo */ 
 .logo {
@@ -57,7 +55,6 @@
 .nav a:hover {
   color: #f3c026;
     text-shadow: 0px 0px 5px #bb7e29;
-  
 }
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
@@ -65,13 +62,16 @@
   .whole {
     position: relative;
     z-index: 1;
+    margin: 0;
+    padding: 0;
+   
   }
   .section1 {
      height: 99vh;
      position: relative;
      font-family: Bignoodle , sans-serif; 
-     margin: 0;
-     overflow-x: hidden;
+     margin: 0 ; 
+     overflow: hidden;
   }
   .Hi{
     color: #f3c026;
@@ -132,6 +132,7 @@
    background-image: url("./Pics/2600_Silver_Background.jpg");
    border-radius: 25px;
    margin: 2vh; 
+   overflow-x: hidden;
    }
 
 .about{
@@ -295,6 +296,7 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
   top : 15vh ; 
   height: 99vh;
   position: relative;
+  overflow-x: hidden;
 }
 .section3in{
   position: relative;

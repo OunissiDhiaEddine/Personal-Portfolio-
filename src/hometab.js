@@ -12,10 +12,11 @@ const Hometab = () => {
          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <img src={require('./Pics/logo.png')} className = "logo" alt = "logo" />
         <div className='section1' ref={sec1} id='homeid'>
-            <img src = {require('./Pics/IMG_9794.png')} className="profile" alt = "profile"/>
-            <h1 className="Hi">Hi!</h1>
-            <h2 className="name">I'm Dhia Eddine Ounissi </h2>
-            <h2 className="current"> Programer , Radiologic Technologist and a Gamer </h2>
+                <img src = {require('./Pics/IMG_9794.png')} className="profile" alt = "profile"/>
+                <h1 className="Hi">Hi!</h1>
+                <h2 className="name">I'm Dhia Eddine Ounissi </h2>
+                <h2 className="current"> Programer , Radiologic Technologist and a Gamer </h2>
+
         </div>
 
         <div className='section2'ref={sec2} id='aboutid'>
