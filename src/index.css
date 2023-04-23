@@ -27,8 +27,8 @@
   position: fixed ;
   width: 5%;
   height: auto;
-  top: 2vh; 
-  left: 2vw;
+  top: 3vh; 
+  left: 3.5vw;
   overflow: visible;
   -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
 	        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
@@ -40,11 +40,11 @@
   position: fixed;
   color:  rgba(29,37,58,.9);
   font-family: Bignoodle , sans-serif; 
-  font-size: 300%;
+  font-size: 250%;
   display: flex;
   justify-content: space-between;
   gap: 2vw;
-  right: 5vw;
+  right: 3vw;
   top: 3vh;
   z-index: 2;
   border-radius: 1vw;
@@ -119,10 +119,7 @@
               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
     
  }
- .profile:hover {
-  content: url("./Pics/IMG_9794 hover.png");
 
- } 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 

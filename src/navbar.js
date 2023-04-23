@@ -1,10 +1,12 @@
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
+    
     return (
       <div className="nav">
-         <a className="homenav">Home</a>
-         <a className="aboutnav">About</a>
-         <a className="contactnav">Contact</a>
+         <Link className="homenav" smooth spy to="homeid" offset={-60} >Home</Link>
+         <Link className="aboutnav" smooth spy to="aboutid"offset={-60}>About</Link>
+         <Link className="contactnav" smooth spy to="contactid"offset={-60}>Contact</Link>
       </div>
     );
 }
