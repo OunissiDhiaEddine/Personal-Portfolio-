@@ -7,6 +7,7 @@ const Hometab = () => {
   
     return ( 
         <div className='whole'>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <img src={require('./Pics/logo.png')} className = "logo" alt = "logo" />
         <div className='section1' ref={sec1}>
             <img src = {require('./Pics/IMG_9794.png')} className="profile" alt = "profile"/>
@@ -22,12 +23,12 @@ const Hometab = () => {
                 playing video games and enjoy challenges . Thanks for passing by ! 
             </p>
             <h2 className={`${sec2vis ? '' :'h2-1'} ${sec2vis ? 'h2-1vis' :''}`} >What i know </h2>
-            <p className={`${sec2vis ? '' :'p2'} ${sec2vis ? 'p2vis' :''}`}>Html , css , C , Objective C , Swift <br></br>,C# , python ,some Game design skills</p>
+            <p className={`${sec2vis ? '' :'p2'} ${sec2vis ? 'p2vis' :''}`}>Html , css , C , Objective C , Swift <br></br>C# , python ,some Game design skills</p>
             <h2 className={`${sec2vis ? '' :'h2-2'} ${sec2vis ? 'h2-2vis' :''}`}>What i'm learning </h2>
-            <p className={`${sec2vis ? '' :'p3'} ${sec2vis ? 'p3vis' :''}`}>Backend development , Graphic design <br></br>, Video editing , German and English</p>
+            <p className={`${sec2vis ? '' :'p3'} ${sec2vis ? 'p3vis' :''}`}>Backend development , Graphic design <br></br>Video editing , German and English</p>
         </div>
-        <div className='section3'ref={sec3}>
-           <div className='section3in'> 
+        <div className='section3'>
+           <div className='section3in'ref={sec3}> 
            <h1 className= {`${sec3vis ? 'contact' :''}`}>contact</h1> 
             <a href="https://web.facebook.com/didou.archer.420/"><img className= {` ${sec3vis ? 'facebook' :''}`} src={require('./Pics/Facebook_Logo.png')}></img></a>
             <a href="https://twitter.com/didou_archer"><img className= {` ${sec3vis ? 'twitter' :''}`} src={require('./Pics/twitter_logo.png')}></img></a>
