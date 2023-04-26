@@ -125,11 +125,11 @@
        /* section 2 */ 
        .section2 {
         top: 7vh ; 
-        height: 85vh;
+        height: 99vh;
         position: relative;
         background-image: url("./Pics/2600_Silver_Background.jpg");
         border-radius: 25px;
-        margin: 2vh; 
+        margin: 0vh; 
         overflow-x: hidden;
         }
        
@@ -140,7 +140,7 @@
         position: absolute;
         font-family: Bignoodle ; 
         font-size: 200%;
-        top: 7vh ; 
+        top: 2vh ; 
         left: 12vw ;
        }
        .aboutvis{
@@ -149,7 +149,7 @@
        text-shadow: 0px 0px 5px #bb7e29;
        position: absolute;
        font-family: Bignoodle ;
-       top: 7vh ; 
+       top: 2vh ; 
        left: 12vw ; 
        font-size: 200%;
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
@@ -159,21 +159,20 @@
        position: absolute;
           top: 20vh ; 
           left: 7vw;
-         font-size: 170% ;  
+         font-size: 150% ;  
          
        font-family: noodle;
-       width: 50%;
+
        color: rgba(29,37,58,.9);
        
        }
        .p1vis{
        position: absolute;
-       top: 20vh ; 
-       left: 7vw;
-       font-size: 170% ;  
-       
+       top: 10vh ; 
+       left: 5vw;
+       font-size: 150% ;  
        font-family: noodle;
-       width: 50%;
+       
        color: rgba(29,37,58,.9);
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
@@ -182,9 +181,9 @@
        color: #f3c026;
         text-shadow: 0px 0px 5px #bb7e29;
        position: absolute;
-       top: 23vh ; 
-       left: 70vw;
-       font-size: 170% ;  
+       top: 55vh ; 
+       left: 5vw;
+       font-size: 150% ; 
        
        font-family: noodle;
        width: fit-content;}
@@ -193,9 +192,9 @@
        color: #f3c026;
         text-shadow: 0px 0px 5px #bb7e29;
        position: absolute;
-       top: 23vh ; 
-       left: 70vw;
-       font-size: 170% ;  
+       top: 55vh ; 
+       left: 5vw;
+       font-size: 150% ;  
        
        font-family: noodle;
        width: fit-content;
@@ -207,9 +206,9 @@
        color: #fff;
        text-shadow: 0px 0px 5px black;
        position: absolute;
-       top: 32vh ; 
-       left: 65vw;
-       font-size: 110% ;  
+       top: 65vh ; 
+       left: 4vw;
+       font-size: 110% ;   
        
        width: fit-content;
        font-family: noodle;
@@ -221,8 +220,8 @@
        color: #fff;
        text-shadow: 0px 0px 5px black;
        position: absolute;
-       top: 32vh ; 
-       left: 65vw;
+       top: 65vh ; 
+       left: 4vw;
        font-size: 110% ;  
        
        width: fit-content;
@@ -238,9 +237,9 @@
        color: #f3c026;
         text-shadow: 0px 0px 5px #bb7e29;
        position: absolute;
-       top: 45vh ; 
-       left: 70vw;
-       font-size: 170% ;  
+       top: 70vh ; 
+       left: 35vw;
+       font-size: 150% ;  
        
        width: fit-content;
        font-family: noodle;
@@ -251,9 +250,9 @@
        color: #f3c026;
         text-shadow: 0px 0px 5px #bb7e29;
        position: absolute;
-       top: 45vh ; 
-       left: 70vw;
-       font-size: 170% ;  
+       top: 70vh ; 
+       left: 35vw;
+       font-size: 150% ;  
        
        width: fit-content;
        font-family: noodle;
@@ -264,18 +263,19 @@
        color: #fff;
        text-shadow: 0px 0px 5px black;
        position: absolute;
-       top: 52vh ; 
-       left: 65vw;
-       font-size: 110% ;  
+       top: 78vh ; 
+       left: 35vw;
+       font-size: 110% ; 
        width: fit-content;
        }
        .p3vis{
        color: #fff;
        text-shadow: 0px 0px 5px black;
        position: absolute;
-       top: 52vh ; 
-       left: 65vw;
-       font-size: 110% ;  
+       top: 78vh ; 
+       left: 35vw;
+       font-size: 110% ;   
+         
        
        width: fit-content;
        
@@ -299,7 +299,7 @@
        .section3in{
        position: relative;
        height: 90vh;
-       margin:  2vh ; 
+       margin:  0vh ; 
        border-radius: 25px;
        background-image: url("./Pics/1600_Sky.jpg");
        }
@@ -308,18 +308,18 @@
        color: #f3c026;
        text-shadow: 0px 0px 5px #bb7e29;
        position: absolute;
-       top: 32vh;
-       left: 13vw;
-       font-size: 360%;
+       top: 5vh;
+       left: 32vw;
+       font-size: 260%;
        font-family: Bignoodle ;
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
        }
        .facebook{
        position: absolute; 
-       top: 39vh;
-       left: 37vw ;
-       width: 7vw;
+       top: 20vh;
+       left: 39vw ;
+       width: 15vw;
        size: 40%;
        cursor: pointer;
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
@@ -327,9 +327,9 @@
        }
        .twitter{
        position: absolute; 
-       top: 39vh;
-       left: 47vw ;
-       width: 7vw;
+       top: 33vh;
+       left: 39vw ;
+       width: 15vw;
        size: 40%;
        cursor: pointer;
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
