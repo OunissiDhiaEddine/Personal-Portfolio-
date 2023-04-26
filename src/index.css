@@ -10,115 +10,771 @@
   font-family: Bignoodle;
   src: url(./fonts/big_noodle_titling_oblique.ttf);
 }
+/* Tablets  375 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width:375px) {
+        /* Cursor and all index effect */ 
+        *{
+         cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+       }
+       /* the logo */ 
+       .logo {
+       background-color: white;
+       border-radius: 6vw;
+       position: fixed ;
+       width: 13%;
+       height: auto;
+       top: 2vh; 
+       left: 3.5vw;
+       overflow: visible;
+       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+       z-index: 2;
+       }
+       /* the nav bar */
+       
+       .nav {
+       background-color: white;
+       position: fixed;
+       color:  rgba(29,37,58,.9);
+       font-family: Bignoodle , sans-serif; 
+       font-size: 200%;
+       display: flex;
+       justify-content: space-between;
+       gap: 3vw;
+       right: 7vw;
+       top: 2.3vh;
+       z-index: 2;
+       border-radius: 1vw;
+       padding: 1vw;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       
+       }
+       .nav a:hover {
+       color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+       }
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       /* section 1 + */ 
+       .whole {
+         position: relative;
+         z-index: 1;
+         margin: 0;
+         padding: 0;
+        
+       }
+       .section1 {
+          height: 99vh;
+          position: relative;
+          font-family: Bignoodle , sans-serif; 
+          margin: 0 ; 
+          overflow: hidden;
+       }
+       .Hi{
+         color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+         position: absolute;
+         top: 15vh;
+         left: 24vw;
+         font-size: 550%;
+       
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+       }
+       .name{
+         color:  rgba(29,37,58,.9); 
+         position: absolute;
+         top: 36vh ; 
+         left: 8vw;
+         font-size:270% ;  
+         
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;          
+       }
+       .current {
+         color: #fff;
+         text-shadow: 0px 0px 5px black;
+         position: absolute;
+         top:  50vh ;
+         left: 17vw ; 
+         font-size: 180%; 
+         font-family: noodle;
+         
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+         
+       }
+       .profile {
+           position : absolute; 
+           width : 30%; 
+           height: 16%;
+           top : 22vh ; 
+           right: 16vw ; 
+           border-radius: 50%;
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+         
+       }
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       
+       /* section 2 */ 
+       .section2 {
+        top: 7vh ; 
+        height: 85vh;
+        position: relative;
+        background-image: url("./Pics/2600_Silver_Background.jpg");
+        border-radius: 25px;
+        margin: 2vh; 
+        overflow-x: hidden;
+        }
+       
+       .about{
+        position: absolute;
+        color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+        position: absolute;
+        font-family: Bignoodle ; 
+        font-size: 200%;
+        top: 7vh ; 
+        left: 12vw ;
+       }
+       .aboutvis{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       font-family: Bignoodle ;
+       top: 7vh ; 
+       left: 12vw ; 
+       font-size: 200%;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+       }
+       .p1{
+       position: absolute;
+          top: 20vh ; 
+          left: 7vw;
+         font-size: 170% ;  
+         
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       
+       }
+       .p1vis{
+       position: absolute;
+       top: 20vh ; 
+       left: 7vw;
+       font-size: 170% ;  
+       
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+       }
+       .h2-1{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 23vh ; 
+       left: 70vw;
+       font-size: 170% ;  
+       
+       font-family: noodle;
+       width: fit-content;}
+       
+       .h2-1vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 23vh ; 
+       left: 70vw;
+       font-size: 170% ;  
+       
+       font-family: noodle;
+       width: fit-content;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       
+       }
+       .p2{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 65vw;
+       font-size: 110% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       }
+       .p2vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 65vw;
+       font-size: 110% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       }
+       
+       .h2-2{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 70vw;
+       font-size: 170% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       
+       }
+       
+       .h2-2vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 70vw;
+       font-size: 170% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       }
+       .p3{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 65vw;
+       font-size: 110% ;  
+       width: fit-content;
+       }
+       .p3vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 65vw;
+       font-size: 110% ;  
+       
+       width: fit-content;
+       
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       
+       }
+       
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       /* section 3 */
+       .section3 {
+       top : 15vh ; 
+       height: 99vh;
+       position: relative;
+       overflow-x: hidden;
+       }
+       .section3in{
+       position: relative;
+       height: 90vh;
+       margin:  2vh ; 
+       border-radius: 25px;
+       background-image: url("./Pics/1600_Sky.jpg");
+       }
+       .contact{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 32vh;
+       left: 13vw;
+       font-size: 360%;
+       font-family: Bignoodle ;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+       }
+       .facebook{
+       position: absolute; 
+       top: 39vh;
+       left: 37vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       .twitter{
+       position: absolute; 
+       top: 39vh;
+       left: 47vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+ } 
+ /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
+/* Tablets  800 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width:800px) {
+        /* Cursor and all index effect */ 
+        *{
+         cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+       }
+       /* the logo */ 
+       .logo {
+       background-color: white;
+       border-radius: 3vw;
+       position: fixed ;
+       width: 5%;
+       height: auto;
+       top: 3vh; 
+       left: 3.5vw;
+       overflow: visible;
+       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+       z-index: 2;
+       }
+       /* the nav bar */
+       .nav {
+       background-color: white;
+       position: fixed;
+       color:  rgba(29,37,58,.9);
+       font-family: Bignoodle , sans-serif; 
+       font-size: 200%;
+       display: flex;
+       justify-content: space-between;
+       gap: 2vw;
+       right: 3vw;
+       top: 3vh;
+       z-index: 2;
+       border-radius: 1vw;
+       padding: 1vw;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       
+       }
+       .nav a:hover {
+       color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+       }
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       /* section 1 + */ 
+       .whole {
+         position: relative;
+         z-index: 1;
+         margin: 0;
+         padding: 0;
+        
+       }
+       .section1 {
+          height: 99vh;
+          position: relative;
+          font-family: Bignoodle , sans-serif; 
+          margin: 0 ; 
+          overflow: hidden;
+       }
+       .Hi{
+         color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+         position: absolute;
+         top: 25vh;
+         left: 13vw;
+         font-size: 520%;
+       
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+       }
+       .name{
+         color:  rgba(29,37,58,.9); 
+         position: absolute;
+         top: 34vh ; 
+         left: 23vw;
+         font-size: 230% ;  
+         
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   
+       }
+       .current {
+         color: #fff;
+         text-shadow: 0px 0px 5px black;
+         position: absolute;
+         top:  47vh ;
+         left: 17vw ; 
+         font-size: 120%; 
+         font-family: noodle;
+         
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+         
+       }
+       .profile {
+           position : absolute; 
+           width : 22%; 
+           height: 30%;
+           top : 32vh ; 
+           right: 15vw ; 
+           border-radius: 50%;
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+         
+       }
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       
+       /* section 2 */ 
+       .section2 {
+        top: 7vh ; 
+        height: 85vh;
+        position: relative;
+        background-image: url("./Pics/2600_Silver_Background.jpg");
+        border-radius: 25px;
+        margin: 2vh; 
+        overflow-x: hidden;
+        }
+       
+       .about{
+        position: absolute;
+        color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+        position: absolute;
+        font-family: Bignoodle ; 
+        font-size: 300%;
+        top: 7vh ; 
+        left: 12vw ;
+       }
+       .aboutvis{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       font-family: Bignoodle ;
+       top: 7vh ; 
+       left: 12vw ; 
+       font-size: 300%;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+       }
+       .p1{
+       position: absolute;
+          top: 20vh ; 
+          left: 7vw;
+         font-size: 170% ;  
+         
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       
+       }
+       .p1vis{
+       position: absolute;
+       top: 20vh ; 
+       left: 7vw;
+       font-size: 170% ;  
+       
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+       }
+       .h2-1{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 23vh ; 
+       left: 70vw;
+       font-size: 170% ;  
+       
+       font-family: noodle;
+       width: fit-content;}
+       
+       .h2-1vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 23vh ; 
+       left: 70vw;
+       font-size: 170% ;  
+       
+       font-family: noodle;
+       width: fit-content;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       
+       }
+       .p2{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 65vw;
+       font-size: 110% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       }
+       .p2vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 65vw;
+       font-size: 110% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       }
+       
+       .h2-2{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 70vw;
+       font-size: 170% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       
+       }
+       
+       .h2-2vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 70vw;
+       font-size: 170% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       }
+       .p3{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 65vw;
+       font-size: 110% ;  
+       width: fit-content;
+       }
+       .p3vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 65vw;
+       font-size: 110% ;  
+       
+       width: fit-content;
+       
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       
+       }
+       
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       /* section 3 */
+       .section3 {
+       top : 15vh ; 
+       height: 99vh;
+       position: relative;
+       overflow-x: hidden;
+       }
+       .section3in{
+       position: relative;
+       height: 90vh;
+       margin:  2vh ; 
+       border-radius: 25px;
+       background-image: url("./Pics/1600_Sky.jpg");
+       }
+       .contact{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 32vh;
+       left: 13vw;
+       font-size: 360%;
+       font-family: Bignoodle ;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+       }
+       .facebook{
+       position: absolute; 
+       top: 39vh;
+       left: 37vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       .twitter{
+       position: absolute; 
+       top: 39vh;
+       left: 47vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       
+       
+       } 
+ /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
-/* Laptops XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-@media only screen and (min-width: 992px ) {
-  /* Cursor and all index effect */ 
-  *{
-    cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
-  }
+/* Laptops  1280 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width:1280px) {
+ /* Cursor and all index effect */ 
+ *{
+  cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+}
 /* the logo */ 
 .logo {
-  background-color: white;
-  border-radius: 3vw;
-  position: fixed ;
-  width: 5%;
-  height: auto;
-  top: 3vh; 
-  left: 3.5vw;
-  overflow: visible;
-  -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
-	        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
-  z-index: 2;
+background-color: white;
+border-radius: 3vw;
+position: fixed ;
+width: 5%;
+height: auto;
+top: 3vh; 
+left: 3.5vw;
+overflow: visible;
+-webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+z-index: 2;
 }
 /* the nav bar */
 .nav {
-  background-color: white;
-  position: fixed;
-  color:  rgba(29,37,58,.9);
-  font-family: Bignoodle , sans-serif; 
-  font-size: 250%;
-  display: flex;
-  justify-content: space-between;
-  gap: 2vw;
-  right: 3vw;
-  top: 3vh;
-  z-index: 2;
-  border-radius: 1vw;
-  padding: 1vw;
+background-color: white;
+position: fixed;
+color:  rgba(29,37,58,.9);
+font-family: Bignoodle , sans-serif; 
+font-size: 250%;
+display: flex;
+justify-content: space-between;
+gap: 2vw;
+right: 3vw;
+top: 3vh;
+z-index: 2;
+border-radius: 1vw;
+padding: 1vw;
 
-  -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
-  animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
 
 }
 .nav a:hover {
-  color: #f3c026;
-    text-shadow: 0px 0px 5px #bb7e29;
+color: #f3c026;
+  text-shadow: 0px 0px 5px #bb7e29;
 }
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 /* section 1 + */ 
-  .whole {
-    position: relative;
-    z-index: 1;
-    margin: 0;
-    padding: 0;
-   
-  }
-  .section1 {
-     height: 99vh;
-     position: relative;
-     font-family: Bignoodle , sans-serif; 
-     margin: 0 ; 
-     overflow: hidden;
-  }
-  .Hi{
-    color: #f3c026;
-    text-shadow: 0px 0px 5px #bb7e29;
-    position: absolute;
-    top: 33vh;
-    left: 13vw;
-    font-size: 1000%;
+.whole {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+ 
+}
+.section1 {
+   height: 99vh;
+   position: relative;
+   font-family: Bignoodle , sans-serif; 
+   margin: 0 ; 
+   overflow: hidden;
+}
+.Hi{
+  color: #f3c026;
+  text-shadow: 0px 0px 5px #bb7e29;
+  position: absolute;
+  top: 25vh;
+  left: 13vw;
+  font-size: 900%;
 
-    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-	        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
-  }
-  .name{
-    color:  rgba(29,37,58,.9); 
-    position: absolute;
-    top: 39vh ; 
-    left: 23vw;
-    font-size: 450% ;  
-    
-      -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-              animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-              
-  }
- .current {
-    color: #fff;
-    text-shadow: 0px 0px 5px black;
-    position: absolute;
-    top:  53vh ;
-    left: 19vw ; 
-    font-size: 200%; 
-    font-family: noodle;
-    
-    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
-              animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
-    
- }
- .profile {
-      position : absolute; 
-      width : 350px; 
-      height: 350px;
-      top : 28vh ; 
-      right: 15vw ; 
-      border-radius: 50%;
-      -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-              animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-    
- }
+  -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+}
+.name{
+  color:  rgba(29,37,58,.9); 
+  position: absolute;
+  top: 37vh ; 
+  left: 23vw;
+  font-size: 350% ;  
+  
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+            animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+            
+}
+.current {
+  color: #fff;
+  text-shadow: 0px 0px 5px black;
+  position: absolute;
+  top:  53vh ;
+  left: 19vw ; 
+  font-size: 170%; 
+  font-family: noodle;
+  
+  -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+            animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+  
+}
+.profile {
+    position : absolute; 
+    width : 25%; 
+    height: 40%;
+    top : 28vh ; 
+    right: 15vw ; 
+    border-radius: 50%;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+            animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+  
+}
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
@@ -126,54 +782,54 @@
 
 /* section 2 */ 
 .section2 {
-   top: 7vh ; 
-   height: 90vh;
-   position: relative;
-   background-image: url("./Pics/2600_Silver_Background.jpg");
-   border-radius: 25px;
-   margin: 2vh; 
-   overflow-x: hidden;
-   }
+ top: 7vh ; 
+ height: 85vh;
+ position: relative;
+ background-image: url("./Pics/2600_Silver_Background.jpg");
+ border-radius: 25px;
+ margin: 2vh; 
+ overflow-x: hidden;
+ }
 
 .about{
-   position: absolute;
-   color: #f3c026;
-   text-shadow: 0px 0px 5px #bb7e29;
-   position: absolute;
-   font-family: Bignoodle ; 
-   font-size: 500%;
-   top: 12vh ; 
-   left: 12vw ;
+ position: absolute;
+ color: #f3c026;
+ text-shadow: 0px 0px 5px #bb7e29;
+ position: absolute;
+ font-family: Bignoodle ; 
+ font-size: 400%;
+ top: 7vh ; 
+ left: 12vw ;
 }
 .aboutvis{
-  position: absolute;
-  color: #f3c026;
-  text-shadow: 0px 0px 5px #bb7e29;
-  position: absolute;
-  font-family: Bignoodle ;
-  top: 12vh ; 
-  left: 12vw ; 
-  font-size: 500%;
-  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+position: absolute;
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+position: absolute;
+font-family: Bignoodle ;
+top: 7vh ; 
+left: 12vw ; 
+font-size: 400%;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
 }
 .p1{
-  position: absolute;
-     top: 24vh ; 
-     left: 7vw;
-    font-size: 270% ;  
-    
-  font-family: noodle;
-  width: 50%;
-  color: rgba(29,37,58,.9);
+position: absolute;
+   top: 22vh ; 
+   left: 7vw;
+  font-size: 240% ;  
+  
+font-family: noodle;
+width: 50%;
+color: rgba(29,37,58,.9);
 
 }
 .p1vis{
-  position: absolute;
-  top: 24vh ; 
-  left: 7vw;
-  font-size: 270% ;  
-  
+position: absolute;
+top: 22vh ; 
+left: 7vw;
+font-size: 240% ;  
+
 font-family: noodle;
 width: 50%;
 color: rgba(29,37,58,.9);
@@ -181,53 +837,53 @@ color: rgba(29,37,58,.9);
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
 }
 .h2-1{
-  color: #f3c026;
-   text-shadow: 0px 0px 5px #bb7e29;
-  position: absolute;
-  top: 25vh ; 
-  left: 75vw;
-  font-size: 200% ;  
-  
+color: #f3c026;
+ text-shadow: 0px 0px 5px #bb7e29;
+position: absolute;
+top: 23vh ; 
+left: 75vw;
+font-size: 200% ;  
+
 font-family: noodle;
 width: fit-content;}
 
 .h2-1vis{
-  color: #f3c026;
-   text-shadow: 0px 0px 5px #bb7e29;
-  position: absolute;
-  top: 25vh ; 
-  left: 75vw;
-  font-size: 200% ;  
-  
+color: #f3c026;
+ text-shadow: 0px 0px 5px #bb7e29;
+position: absolute;
+top: 23vh ; 
+left: 75vw;
+font-size: 200% ;  
+
 font-family: noodle;
 width: fit-content;
-	-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-	        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
 
 }
 .p2{
-  color: #fff;
-  text-shadow: 0px 0px 5px black;
-  position: absolute;
-  top: 32vh ; 
-  left: 75vw;
-  font-size: 150% ;  
-  
-  width: fit-content;
+color: #fff;
+text-shadow: 0px 0px 5px black;
+position: absolute;
+top: 32vh ; 
+left: 74vw;
+font-size: 150% ;  
+
+width: fit-content;
 font-family: noodle;
 border-radius: 0;
 margin: 0;
 
 }
 .p2vis{
-  color: #fff;
-  text-shadow: 0px 0px 5px black;
-  position: absolute;
-  top: 32vh ; 
-  left: 75vw;
-  font-size: 150% ;  
-  
-  width: fit-content;
+color: #fff;
+text-shadow: 0px 0px 5px black;
+position: absolute;
+top: 32vh ; 
+left: 74vw;
+font-size: 150% ;  
+
+width: fit-content;
 font-family: noodle;
 border-radius: 0;
 margin: 0;
@@ -237,50 +893,50 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
 }
 
 .h2-2{
-  color: #f3c026;
-   text-shadow: 0px 0px 5px #bb7e29;
-  position: absolute;
-  top: 45vh ; 
-  left: 75vw;
-  font-size: 200% ;  
-  
-  width: fit-content;
+color: #f3c026;
+ text-shadow: 0px 0px 5px #bb7e29;
+position: absolute;
+top: 45vh ; 
+left: 75vw;
+font-size: 200% ;  
+
+width: fit-content;
 font-family: noodle;
 
 }
 
 .h2-2vis{
-  color: #f3c026;
-   text-shadow: 0px 0px 5px #bb7e29;
-  position: absolute;
-  top: 45vh ; 
-  left: 75vw;
-  font-size: 200% ;  
-  
-  width: fit-content;
+color: #f3c026;
+ text-shadow: 0px 0px 5px #bb7e29;
+position: absolute;
+top: 45vh ; 
+left: 75vw;
+font-size: 200% ;  
+
+width: fit-content;
 font-family: noodle;
 -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
 animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
 }
 .p3{
-  color: #fff;
-  text-shadow: 0px 0px 5px black;
-  position: absolute;
-  top: 52vh ; 
-  left: 75vw;
-  font-size: 150% ;  
-  width: fit-content;
+color: #fff;
+text-shadow: 0px 0px 5px black;
+position: absolute;
+top: 52vh ; 
+left: 74vw;
+font-size: 150% ;  
+width: fit-content;
 }
 .p3vis{
-  color: #fff;
-  text-shadow: 0px 0px 5px black;
-  position: absolute;
-  top: 52vh ; 
-  left: 75vw;
-  font-size: 150% ;  
-  
-  width: fit-content;
-  
+color: #fff;
+text-shadow: 0px 0px 5px black;
+position: absolute;
+top: 52vh ; 
+left: 74vw;
+font-size: 150% ;  
+
+width: fit-content;
+
 font-family: noodle;
 -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
 animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
@@ -293,54 +949,1372 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
 
 /* section 3 */
 .section3 {
-  top : 15vh ; 
-  height: 99vh;
-  position: relative;
-  overflow-x: hidden;
+top : 15vh ; 
+height: 99vh;
+position: relative;
+overflow-x: hidden;
 }
 .section3in{
-  position: relative;
-  height: 90vh;
-  margin:  2vh ; 
-  border-radius: 25px;
-  background-image: url("./Pics/1600_Sky.jpg");
+position: relative;
+height: 90vh;
+margin:  2vh ; 
+border-radius: 25px;
+background-image: url("./Pics/1600_Sky.jpg");
 }
 .contact{
- position: absolute;
- color: #f3c026;
-  text-shadow: 0px 0px 5px #bb7e29;
-  position: absolute;
-  top: 40vh;
-  left: 13vw;
-  font-size: 500%;
-  font-family: Bignoodle ;
-  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+position: absolute;
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+position: absolute;
+top: 33vh;
+left: 13vw;
+font-size: 500%;
+font-family: Bignoodle ;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
 }
 .facebook{
-  position: absolute; 
-  top: 39vh;
-  left: 37vw ;
-  width: 7vw;
-  size: 40%;
-  cursor: pointer;
-  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+position: absolute; 
+top: 39vh;
+left: 37vw ;
+width: 7vw;
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
 .twitter{
-  position: absolute; 
-  top: 39vh;
-  left: 47vw ;
-  width: 7vw;
-  size: 40%;
-  cursor: pointer;
-  -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-  animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+position: absolute; 
+top: 39vh;
+left: 47vw ;
+width: 7vw;
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
+
 
 } 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
+/* Laptops 1366 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width: 1366px) {
+ /* Cursor and all index effect */ 
+ *{
+         cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+}
+       /* the logo */ 
+       .logo {
+       background-color: white;
+       border-radius: 3vw;
+       position: fixed ;
+       width: 5%;
+       height: auto;
+       top: 3vh; 
+       left: 3.5vw;
+       overflow: visible;
+       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+       z-index: 2;
+       }
+       /* the nav bar */
+       .nav {
+       background-color: white;
+       position: fixed;
+       color:  rgba(29,37,58,.9);
+       font-family: Bignoodle , sans-serif; 
+       font-size: 250%;
+       display: flex;
+       justify-content: space-between;
+       gap: 2vw;
+       right: 3vw;
+       top: 3vh;
+       z-index: 2;
+       border-radius: 1vw;
+       padding: 1vw;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       
+       }
+       .nav a:hover {
+       color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+       }
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       /* section 1 + */ 
+       .whole {
+         position: relative;
+         z-index: 1;
+         margin: 0;
+         padding: 0;
+        
+       }
+       .section1 {
+          height: 99vh;
+          position: relative;
+          font-family: Bignoodle , sans-serif; 
+          margin: 0 ; 
+          overflow: hidden;
+       }
+       .Hi{
+         color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+         position: absolute;
+         top: 23vh;
+         left: 13vw;
+         font-size: 900%;
+       
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+       }
+       .name{
+         color:  rgba(29,37,58,.9); 
+         position: absolute;
+         top: 33vh ; 
+         left: 23vw;
+         font-size: 430% ;  
+         
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   
+       }
+       .current {
+         color: #fff;
+         text-shadow: 0px 0px 5px black;
+         position: absolute;
+         top:  53vh ;
+         left: 19vw ; 
+         font-size: 200%; 
+         font-family: noodle;
+         
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+         
+       }
+       .profile {
+           position : absolute; 
+           width : 23%; 
+           height: 40%;
+           top : 28vh ; 
+           right: 15vw ; 
+           border-radius: 50%;
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+         
+       }
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       
+       /* section 2 */ 
+       .section2 {
+        top: 7vh ; 
+        height: 90vh;
+        position: relative;
+        background-image: url("./Pics/2600_Silver_Background.jpg");
+        border-radius: 25px;
+        margin: 2vh; 
+        overflow-x: hidden;
+        }
+       
+       .about{
+        position: absolute;
+        color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+        position: absolute;
+        font-family: Bignoodle ; 
+        font-size: 480%;
+        top: 4vh ; 
+        left: 12vw ;
+       }
+       .aboutvis{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       font-family: Bignoodle ;
+       top: 4vh ; 
+       left: 12vw ; 
+       font-size: 480%;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+       }
+       .p1{
+       position: absolute;
+          top: 22vh ; 
+          left: 7vw;
+         font-size: 240% ;  
+         
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       
+       }
+       .p1vis{
+       position: absolute;
+       top: 22vh ; 
+       left: 7vw;
+       font-size: 240% ;  
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+       }
+       .h2-1{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 22vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       font-family: noodle;
+       width: fit-content;}
+       
+       .h2-1vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 22vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       font-family: noodle;
+       width: fit-content;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       
+       }
+       .p2{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       }
+       .p2vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       }
+       
+       .h2-2{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       
+       }
+       
+       .h2-2vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       }
+       .p3{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       width: fit-content;
+       }
+       .p3vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       
+       }
+       
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       /* section 3 */
+       .section3 {
+       top : 15vh ; 
+       height: 99vh;
+       position: relative;
+       overflow-x: hidden;
+       }
+       .section3in{
+       position: relative;
+       height: 90vh;
+       margin:  2vh ; 
+       border-radius: 25px;
+       background-image: url("./Pics/1600_Sky.jpg");
+       }
+       .contact{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 34vh;
+       left: 13vw;
+       font-size: 500%;
+       font-family: Bignoodle ;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+       }
+       .facebook{
+       position: absolute; 
+       top: 39vh;
+       left: 37vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       .twitter{
+       position: absolute; 
+       top: 39vh;
+       left: 47vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       
+       
+} 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* Laptops 1366 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width: 1366px) {
+ /* Cursor and all index effect */ 
+ *{
+         cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+}
+       /* the logo */ 
+       .logo {
+       background-color: white;
+       border-radius: 3vw;
+       position: fixed ;
+       width: 5%;
+       height: auto;
+       top: 3vh; 
+       left: 3.5vw;
+       overflow: visible;
+       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+       z-index: 2;
+       }
+       /* the nav bar */
+       .nav {
+       background-color: white;
+       position: fixed;
+       color:  rgba(29,37,58,.9);
+       font-family: Bignoodle , sans-serif; 
+       font-size: 250%;
+       display: flex;
+       justify-content: space-between;
+       gap: 2vw;
+       right: 3vw;
+       top: 3vh;
+       z-index: 2;
+       border-radius: 1vw;
+       padding: 1vw;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       
+       }
+       .nav a:hover {
+       color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+       }
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       /* section 1 + */ 
+       .whole {
+         position: relative;
+         z-index: 1;
+         margin: 0;
+         padding: 0;
+        
+       }
+       .section1 {
+          height: 99vh;
+          position: relative;
+          font-family: Bignoodle , sans-serif; 
+          margin: 0 ; 
+          overflow: hidden;
+       }
+       .Hi{
+         color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+         position: absolute;
+         top: 23vh;
+         left: 13vw;
+         font-size: 900%;
+       
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+       }
+       .name{
+         color:  rgba(29,37,58,.9); 
+         position: absolute;
+         top: 33vh ; 
+         left: 23vw;
+         font-size: 430% ;  
+         
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   
+       }
+       .current {
+         color: #fff;
+         text-shadow: 0px 0px 5px black;
+         position: absolute;
+         top:  53vh ;
+         left: 19vw ; 
+         font-size: 200%; 
+         font-family: noodle;
+         
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+         
+       }
+       .profile {
+           position : absolute; 
+           width : 23%; 
+           height: 40%;
+           top : 28vh ; 
+           right: 15vw ; 
+           border-radius: 50%;
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+         
+       }
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       
+       /* section 2 */ 
+       .section2 {
+        top: 7vh ; 
+        height: 90vh;
+        position: relative;
+        background-image: url("./Pics/2600_Silver_Background.jpg");
+        border-radius: 25px;
+        margin: 2vh; 
+        overflow-x: hidden;
+        }
+       
+       .about{
+        position: absolute;
+        color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+        position: absolute;
+        font-family: Bignoodle ; 
+        font-size: 480%;
+        top: 4vh ; 
+        left: 12vw ;
+       }
+       .aboutvis{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       font-family: Bignoodle ;
+       top: 4vh ; 
+       left: 12vw ; 
+       font-size: 480%;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+       }
+       .p1{
+       position: absolute;
+          top: 22vh ; 
+          left: 7vw;
+         font-size: 240% ;  
+         
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       
+       }
+       .p1vis{
+       position: absolute;
+       top: 22vh ; 
+       left: 7vw;
+       font-size: 240% ;  
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+       }
+       .h2-1{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 22vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       font-family: noodle;
+       width: fit-content;}
+       
+       .h2-1vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 22vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       font-family: noodle;
+       width: fit-content;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       
+       }
+       .p2{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       }
+       .p2vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       }
+       
+       .h2-2{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       
+       }
+       
+       .h2-2vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       }
+       .p3{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       width: fit-content;
+       }
+       .p3vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       
+       }
+       
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       /* section 3 */
+       .section3 {
+       top : 15vh ; 
+       height: 99vh;
+       position: relative;
+       overflow-x: hidden;
+       }
+       .section3in{
+       position: relative;
+       height: 90vh;
+       margin:  2vh ; 
+       border-radius: 25px;
+       background-image: url("./Pics/1600_Sky.jpg");
+       }
+       .contact{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 33vh;
+       left: 13vw;
+       font-size: 500%;
+       font-family: Bignoodle ;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+       }
+       .facebook{
+       position: absolute; 
+       top: 39vh;
+       left: 37vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       .twitter{
+       position: absolute; 
+       top: 39vh;
+       left: 47vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       
+       
+} 
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* Laptops  1440 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only  screen and (min-width: 1440px ) {
+        /* Cursor and all index effect */ 
+        *{
+         cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+       }
+       /* the logo */ 
+       .logo {
+       background-color: white;
+       border-radius: 3vw;
+       position: fixed ;
+       width: 5%;
+       height: auto;
+       top: 3vh; 
+       left: 3.5vw;
+       overflow: visible;
+       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+       z-index: 2;
+       }
+       /* the nav bar */
+       .nav {
+       background-color: white;
+       position: fixed;
+       color:  rgba(29,37,58,.9);
+       font-family: Bignoodle , sans-serif; 
+       font-size: 250%;
+       display: flex;
+       justify-content: space-between;
+       gap: 2vw;
+       right: 3vw;
+       top: 3vh;
+       z-index: 2;
+       border-radius: 1vw;
+       padding: 1vw;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       
+       }
+       .nav a:hover {
+       color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+       }
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       /* section 1 + */ 
+       .whole {
+         position: relative;
+         z-index: 1;
+         margin: 0;
+         padding: 0;
+        
+       }
+       .section1 {
+          height: 99vh;
+          position: relative;
+          font-family: Bignoodle , sans-serif; 
+          margin: 0 ; 
+          overflow: hidden;
+       }
+       .Hi{
+         color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+         position: absolute;
+         top: 24vh;
+         left: 13vw;
+         font-size: 1000%;
+       
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+       }
+       .name{
+         color:  rgba(29,37,58,.9); 
+         position: absolute;
+         top: 36vh ; 
+         left: 23vw;
+         font-size: 450% ;  
+         
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   
+       }
+       .current {
+         color: #fff;
+         text-shadow: 0px 0px 5px black;
+         position: absolute;
+         top:  53vh ;
+         left: 19vw ; 
+         font-size: 200%; 
+         font-family: noodle;
+         
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+         
+       }
+       .profile {
+           position : absolute; 
+           width : 23%; 
+           height: 39%;
+           top : 30vh ; 
+           right: 14vw ; 
+           border-radius: 50%;
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+         
+       }
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       
+       /* section 2 */ 
+       .section2 {
+        top: 7vh ; 
+        height: 90vh;
+        position: relative;
+        background-image: url("./Pics/2600_Silver_Background.jpg");
+        border-radius: 25px;
+        margin: 2vh; 
+        overflow-x: hidden;
+        }
+       
+       .about{
+        position: absolute;
+        color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+        position: absolute;
+        font-family: Bignoodle ; 
+        font-size: 500%;
+        top: 7vh ; 
+        left: 12vw ;
+       }
+       .aboutvis{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       font-family: Bignoodle ;
+       top: 7vh ; 
+       left: 12vw ; 
+       font-size: 500%;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+       }
+       .p1{
+       position: absolute;
+          top: 22vh ; 
+          left: 7vw;
+         font-size: 270% ;  
+         
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       
+       }
+       .p1vis{
+       position: absolute;
+       top: 22vh ; 
+       left: 7vw;
+       font-size: 270% ;  
+       
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+       }
+       .h2-1{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 23vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       font-family: noodle;
+       width: fit-content;}
+       
+       .h2-1vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 23vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       font-family: noodle;
+       width: fit-content;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       
+       }
+       .p2{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       }
+       .p2vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       }
+       
+       .h2-2{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       
+       }
+       
+       .h2-2vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 75vw;
+       font-size: 200% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       }
+       .p3{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       width: fit-content;
+       }
+       .p3vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 75vw;
+       font-size: 150% ;  
+       
+       width: fit-content;
+       
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       
+       }
+       
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       /* section 3 */
+       .section3 {
+       top : 15vh ; 
+       height: 99vh;
+       position: relative;
+       overflow-x: hidden;
+       }
+       .section3in{
+       position: relative;
+       height: 90vh;
+       margin:  2vh ; 
+       border-radius: 25px;
+       background-image: url("./Pics/1600_Sky.jpg");
+       }
+       .contact{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 34vh;
+       left: 13vw;
+       font-size: 500%;
+       font-family: Bignoodle ;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+       }
+       .facebook{
+       position: absolute; 
+       top: 39vh;
+       left: 37vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       .twitter{
+       position: absolute; 
+       top: 39vh;
+       left: 47vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       
+       
+       }     
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* PCs  1920 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only  screen and (min-width: 1920px ) {
+        /* Cursor and all index effect */ 
+        *{
+         cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+       }
+       /* the logo */ 
+       .logo {
+       background-color: white;
+       border-radius: 3vw;
+       position: fixed ;
+       width: 5%;
+       height: auto;
+       top: 3vh; 
+       left: 3.5vw;
+       overflow: visible;
+       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+       z-index: 2;
+       }
+       /* the nav bar */
+       .nav {
+       background-color: white;
+       position: fixed;
+       color:  rgba(29,37,58,.9);
+       font-family: Bignoodle , sans-serif; 
+       font-size: 350%;
+       display: flex;
+       justify-content: space-between;
+       gap: 2vw;
+       right: 3vw;
+       top: 3vh;
+       z-index: 2;
+       border-radius: 1vw;
+       padding: 1vw;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+       
+       }
+       .nav a:hover {
+       color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+       }
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       /* section 1 + */ 
+       .whole {
+         position: relative;
+         z-index: 1;
+         margin: 0;
+         padding: 0;
+        
+       }
+       .section1 {
+          height: 99vh;
+          position: relative;
+          font-family: Bignoodle , sans-serif; 
+          margin: 0 ; 
+          overflow: hidden;
+       }
+       .Hi{
+         color: #f3c026;
+         text-shadow: 0px 0px 5px #bb7e29;
+         position: absolute;
+         top: 24vh;
+         left: 13vw;
+         font-size: 1100%;
+       
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+       }
+       .name{
+         color:  rgba(29,37,58,.9); 
+         position: absolute;
+         top: 33vh ; 
+         left: 23vw;
+         font-size: 570% ;  
+         
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   
+       }
+       .current {
+         color: #fff;
+         text-shadow: 0px 0px 5px black;
+         position: absolute;
+         top:  52vh ;
+         left: 15vw ; 
+         font-size: 320%; 
+         font-family: noodle;
+         
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+         
+       }
+       .profile {
+           position : absolute; 
+           width : 24%; 
+           height: 41%;
+           top : 30vh ; 
+           right: 14vw ; 
+           border-radius: 50%;
+           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+         
+       }
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       
+       /* section 2 */ 
+       .section2 {
+        top: 7vh ; 
+        height: 90vh;
+        position: relative;
+        background-image: url("./Pics/2600_Silver_Background.jpg");
+        border-radius: 25px;
+        margin: 2vh; 
+        overflow-x: hidden;
+        }
+       
+       .about{
+        position: absolute;
+        color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+        position: absolute;
+        font-family: Bignoodle ; 
+        font-size: 600%;
+        top: 7vh ; 
+        left: 12vw ;
+       }
+       .aboutvis{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       font-family: Bignoodle ;
+       top: 7vh ; 
+       left: 12vw ; 
+       font-size: 600%;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+       }
+       .p1{
+       position: absolute;
+          top: 20vh ; 
+          left: 7vw;
+         font-size: 370% ;  
+         
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       
+       }
+       .p1vis{
+       position: absolute;
+       top: 20vh ; 
+       left: 7vw;
+       font-size: 370% ;  
+       
+       font-family: noodle;
+       width: 50%;
+       color: rgba(29,37,58,.9);
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+       }
+       .h2-1{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 21vh ; 
+       left: 75vw;
+       font-size: 350% ;  
+       
+       font-family: noodle;
+       width: fit-content;}
+       
+       .h2-1vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 21vh ; 
+       left: 75vw;
+       font-size: 350% ;  
+       
+       font-family: noodle;
+       width: fit-content;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       
+       }
+       .p2{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 72vw;
+       font-size: 250% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       }
+       .p2vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 32vh ; 
+       left: 72vw;
+       font-size: 250% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       border-radius: 0;
+       margin: 0;
+       
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       }
+       
+       .h2-2{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 75vw;
+       font-size: 350% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       
+       }
+       
+       .h2-2vis{
+       color: #f3c026;
+        text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 45vh ; 
+       left: 75vw;
+       font-size: 350% ;  
+       
+       width: fit-content;
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       }
+       .p3{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 71vw;
+       font-size: 250% ;  
+       width: fit-content;
+       }
+       .p3vis{
+       color: #fff;
+       text-shadow: 0px 0px 5px black;
+       position: absolute;
+       top: 52vh ; 
+       left: 71vw;
+       font-size: 250% ;  
+       
+       width: fit-content;
+       
+       font-family: noodle;
+       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+       
+       }
+       
+       
+       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+       
+       
+       /* section 3 */
+       .section3 {
+       top : 15vh ; 
+       height: 99vh;
+       position: relative;
+       overflow-x: hidden;
+       }
+       .section3in{
+       position: relative;
+       height: 90vh;
+       margin:  2vh ; 
+       border-radius: 25px;
+       background-image: url("./Pics/1600_Sky.jpg");
+       }
+       .contact{
+       position: absolute;
+       color: #f3c026;
+       text-shadow: 0px 0px 5px #bb7e29;
+       position: absolute;
+       top: 33vh;
+       left: 13vw;
+       font-size: 700%;
+       font-family: Bignoodle ;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+       }
+       .facebook{
+       position: absolute; 
+       top: 39vh;
+       left: 37vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       .twitter{
+       position: absolute; 
+       top: 39vh;
+       left: 47vw ;
+       width: 7vw;
+       size: 40%;
+       cursor: pointer;
+       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+       }
+       
+       
+       }     
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
