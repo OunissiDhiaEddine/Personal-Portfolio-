@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.780bff0a.css",
-    "main.js": "/static/js/main.b328a965.js",
+    "main.css": "/static/css/main.9d4ca73e.css",
+    "main.js": "/static/js/main.55a24bc1.js",
     "static/js/787.8c60113e.chunk.js": "/static/js/787.8c60113e.chunk.js",
     "static/media/IMG_9794.png": "/static/media/IMG_9794.f383d59d4b447a8ce48b.png",
     "static/media/2600_Silver_Background.jpg": "/static/media/2600_Silver_Background.79685281ce66913db934.jpg",
@@ -13,12 +13,12 @@
     "static/media/big_noodle_titling_oblique.ttf": "/static/media/big_noodle_titling_oblique.a54ee5b6b0c512c89e35.ttf",
     "static/media/big_noodle_titling.ttf": "/static/media/big_noodle_titling.e2ebffa44fbb63381589.ttf",
     "index.html": "/index.html",
-    "main.780bff0a.css.map": "/static/css/main.780bff0a.css.map",
-    "main.b328a965.js.map": "/static/js/main.b328a965.js.map",
+    "main.9d4ca73e.css.map": "/static/css/main.9d4ca73e.css.map",
+    "main.55a24bc1.js.map": "/static/js/main.55a24bc1.js.map",
     "787.8c60113e.chunk.js.map": "/static/js/787.8c60113e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.780bff0a.css",
-    "static/js/main.b328a965.js"
+    "static/css/main.9d4ca73e.css",
+    "static/js/main.55a24bc1.js"
   ]
 }
