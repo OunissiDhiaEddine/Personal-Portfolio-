@@ -5,6 +5,7 @@ const Navbar = () => {
     
     return (
       <div className="nav">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
          <Link className="homenav" smooth spy to="homeid"offset={-60} >Home</Link>
          <Link className="aboutnav" smooth spy to="aboutid"offset={-60}>About</Link>
          <Link className="contactnav" smooth spy to="contactid"offset={-60}>Contact</Link>
