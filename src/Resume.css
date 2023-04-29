@@ -1,0 +1,64 @@
+.logo2 {
+  background-color: white;
+  border-radius: 3vw;
+  position: fixed ;
+  width: 5%;
+  height: auto;
+  top: 3vh; 
+  left: 3.5vw;
+  overflow: visible;
+  -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+          animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+  z-index: 2;
+  }
+
+.nav2 {
+  background-color: white;
+  position: fixed;
+  color:  rgba(29,37,58,.9);
+  font-family: Bignoodle , sans-serif; 
+  font-size: 250%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2vw;
+  right: 3vw;
+  top: 3vh;
+  z-index: 2;
+  border-radius: 1vw;
+  padding: 1vw;
+  -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+  animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+  }
+  .nav2 a:hover {
+    color: #f3c026 !important;
+      text-shadow: 0px 0px 5px #bb7e29; 
+    }
+
+.Resume {
+  top: 14vh;
+  position: relative; 
+  border-radius: 7vw;
+  display: flex;
+  background-image: url("./Pics/2600_Silver_Background.jpg") ;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+  flex-direction: column;
+  gap: 3vh;
+  margin: 1vh;
+  margin-bottom: 16vh;
+}
+
+.restxt{
+  font-size: 450%;
+  color: #f3c026;
+  text-shadow: 0px 0px 5px #bb7e29;
+  font-family: Bignoodle , sans-serif; 
+}
+.res {
+    width: 50vw;
+    padding-bottom: 2vh;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}

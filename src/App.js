@@ -1,14 +1,17 @@
 import Navbar from "./navbar";
 import Hometab from "./hometab";
-import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import Resume from "./Resume";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 
 
 function App() {
   return (
         <div className="App">
-          <Navbar></Navbar>
-          <Hometab></Hometab>
+             <Routes> 
+                 <Route path="/" element={<><Hometab/> <Navbar/></>} /> 
+                 <Route path="/Resume" element={<Resume />} />
+             </Routes> 
       </div>
   );
 }
