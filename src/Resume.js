@@ -7,6 +7,7 @@ const Resume = () => {
          <NavLink classname="nav2home" to="/" style={{ textDecoration: 'none' , color:'rgba(29,37,58,.9)'}} >Home</NavLink>
       </div>
       <img src={require('./Pics/logo.png')} className = "logo2" alt = "logo2" />
+      <img src={require('./Pics/betalogo.png')} className='betalogo' alt='betalogo'/>
       <h1 className="restxt">Resume</h1>
       <div className="respic">
       <img src={require('./Pics/Resume .png')} className = "res" alt = "res" />

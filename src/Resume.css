@@ -1,11 +1,11 @@
-/* Laptops 1280 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-@media only screen and (min-width: 1280px) {
+/* phones 375 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width: 375px) {
 
   .logo2 {
     background-color: white;
     border-radius: 3vw;
     position: fixed ;
-    width: 5%;
+    width: 12vw;
     height: auto;
     top: 3vh; 
     left: 3.5vw;
@@ -14,13 +14,23 @@
             animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
     z-index: 2;
     }
+  .betalogo{
+    position: fixed;
+    width: 11.5vw;
+    top: 5vh ; 
+    overflow: visible;
+    z-index: 2;
+    left: 17vw ;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+  }
   
   .nav2 {
     background-color: white;
     position: fixed;
     color:  rgba(29,37,58,.9);
     font-family: Bignoodle , sans-serif; 
-    font-size: 250%;
+    font-size: 10vw;
     display: flex;
     justify-content: space-between;
     gap: 2vw;
@@ -34,7 +44,90 @@
     }
     .nav2 a:hover {
       color: #f3c026 !important;
-        text-shadow: 0px 0px 5px #bb7e29; 
+        text-shadow: 0px 0px 1.33vw #bb7e29; 
+      }
+  
+  .Resume {
+    top: 14vh;
+    position: relative; 
+    border-radius: 7vw;
+    display: flex;
+    background-image: url("./Pics/2600_Silver_Background.jpg") ;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 0vw;
+    margin-bottom: 16vh;
+    
+  }
+  
+  .restxt{
+    font-size: 11vw;
+    color: #f3c026;
+    text-shadow: 0px 0px 1.33vw #bb7e29;
+    font-family: Bignoodle , sans-serif; 
+    -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+  }
+  .res {
+      width: 90vw;
+      padding-bottom: 2vh;
+      box-shadow: 0px 0px 0.69vw rgba(0, 0, 0, 0.5);
+  }
+  } 
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* Tablets 600 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width: 600px) {
+
+  .logo2 {
+    background-color: white;
+    border-radius: 3vw;
+    position: fixed ;
+    width: 9vw;
+    height: auto;
+    top: 3vh; 
+    left: 3.5vw;
+    overflow: visible;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+            animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+    z-index: 2;
+    }
+  .betalogo{
+    position: fixed;
+    width: 8.5vw;
+    top: 5vh ; 
+    overflow: visible;
+    z-index: 2;
+    left: 14vw ;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+  }
+  
+  .nav2 {
+    background-color: white;
+    position: fixed;
+    color:  rgba(29,37,58,.9);
+    font-family: Bignoodle , sans-serif; 
+    font-size: 7vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    right: 3vw;
+    top: 3vh;
+    z-index: 2;
+    border-radius: 1vw;
+    padding: 1vw;
+    -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    }
+    .nav2 a:hover {
+      color: #f3c026 !important;
+        text-shadow: 0px 0px 0.8vw #bb7e29; 
       }
   
   .Resume {
@@ -56,9 +149,93 @@
   }
   
   .restxt{
-    font-size: 450%;
+    font-size: 10vw;
     color: #f3c026;
-    text-shadow: 0px 0px 5px #bb7e29;
+    text-shadow: 0px 0px 0.8vw #bb7e29;
+    font-family: Bignoodle , sans-serif; 
+    -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+  }
+  .res {
+      width: 90vw;
+      padding-bottom: 2vh;
+      box-shadow: 0px 0px 0.69vw rgba(0, 0, 0, 0.5);
+  }
+  } 
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+
+/* Laptops 1280 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width: 1280px) {
+  .logo2 {
+    background-color: white;
+    border-radius: 3vw;
+    position: fixed ;
+    width: 5.5vw;
+    height: auto;
+    top: 3vh; 
+    left: 3.5vw;
+    overflow: visible;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+            animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+    z-index: 2;
+    }
+  .betalogo{
+    position: fixed;
+    width: 5vw;
+    top: 5.5vh ; 
+    overflow: visible;
+    z-index: 2;
+    left: 10vw ;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+  }
+  
+  .nav2 {
+    background-color: white;
+    position: fixed;
+    color:  rgba(29,37,58,.9);
+    font-family: Bignoodle , sans-serif; 
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    right: 3vw;
+    top: 3vh;
+    z-index: 2;
+    border-radius: 1vw;
+    padding: 1vw;
+    -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    }
+    .nav2 a:hover {
+      color: #f3c026 !important;
+        text-shadow: 0px 0px 0.39vw #bb7e29; 
+      }
+  
+  .Resume {
+    top: 14vh;
+    position: relative; 
+    border-radius: 7vw;
+    display: flex;
+    background-image: url("./Pics/2600_Silver_Background.jpg") ;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 1vh;
+    margin-bottom: 16vh;
+    
+  }
+  
+  .restxt{
+    font-size: 5vw;
+    color: #f3c026;
+    text-shadow: 0px 0px 0.39vw #bb7e29;
     font-family: Bignoodle , sans-serif; 
     -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
     animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
@@ -66,21 +243,21 @@
   .res {
       width: 50vw;
       padding-bottom: 2vh;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 0px 0.69vw rgba(0, 0, 0, 0.5);
   }
-  } 
+}
    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
 
 
-/* Laptops 1366 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* Laptops 1360 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 @media only screen and (min-width: 1360px) {
 
 .logo2 {
   background-color: white;
   border-radius: 3vw;
   position: fixed ;
-  width: 5%;
+  width: 5.5vw;
   height: auto;
   top: 3vh; 
   left: 3.5vw;
@@ -89,13 +266,23 @@
           animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
   z-index: 2;
   }
+.betalogo{
+  position: fixed;
+  width: 5vw;
+  top: 5.5vh ; 
+  overflow: visible;
+  z-index: 2;
+  left: 10vw ;
+  -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+  animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+}
 
 .nav2 {
   background-color: white;
   position: fixed;
   color:  rgba(29,37,58,.9);
   font-family: Bignoodle , sans-serif; 
-  font-size: 250%;
+  font-size: 3.5vw;
   display: flex;
   justify-content: space-between;
   gap: 2vw;
@@ -109,7 +296,7 @@
   }
   .nav2 a:hover {
     color: #f3c026 !important;
-      text-shadow: 0px 0px 5px #bb7e29; 
+      text-shadow: 0px 0px 0.347vw #bb7e29; 
     }
 
 .Resume {
@@ -131,9 +318,9 @@
 }
 
 .restxt{
-  font-size: 450%;
+  font-size: 5vw;
   color: #f3c026;
-  text-shadow: 0px 0px 5px #bb7e29;
+  text-shadow: 0px 0px 0.347vw #bb7e29;
   font-family: Bignoodle , sans-serif; 
   -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
   animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
@@ -141,7 +328,91 @@
 .res {
     width: 50vw;
     padding-bottom: 2vh;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 0.69vw rgba(0, 0, 0, 0.5);
 }
 } 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+/* Laptops 1920 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width: 1920px) {
+
+  .logo2 {
+    background-color: white;
+    border-radius: 3vw;
+    position: fixed ;
+    width: 5.5vw;
+    height: auto;
+    top: 3vh; 
+    left: 3.5vw;
+    overflow: visible;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+            animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+    z-index: 2;
+    }
+  .betalogo{
+    position: fixed;
+    width: 5vw;
+    top: 5.5vh ; 
+    overflow: visible;
+    z-index: 2;
+    left: 10vw ;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+  }
+  
+  .nav2 {
+    background-color: white;
+    position: fixed;
+    color:  rgba(29,37,58,.9);
+    font-family: Bignoodle , sans-serif; 
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    right: 3vw;
+    top: 3vh;
+    z-index: 2;
+    border-radius: 1vw;
+    padding: 1vw;
+    -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    }
+    .nav2 a:hover {
+      color: #f3c026 !important;
+        text-shadow: 0px 0px 0.260vw #bb7e29; 
+      }
+  
+  .Resume {
+    top: 14vh;
+    position: relative; 
+    border-radius: 7vw;
+    display: flex;
+    background-image: url("./Pics/2600_Silver_Background.jpg") ;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 1vh;
+    margin-bottom: 16vh;
+    
+  }
+  
+  .restxt{
+    font-size: 5vw;
+    color: #f3c026;
+    text-shadow: 0px 0px 0.260vw #bb7e29;
+    font-family: Bignoodle , sans-serif; 
+    -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+  }
+  .res {
+      width: 35vw;
+      padding-bottom: 2vh;
+      box-shadow: 0px 0px 0.69vw rgba(0, 0, 0, 0.5);
+  }
+  } 
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */

@@ -22,7 +22,7 @@
        background-color: white;
        border-radius: 6vw;
        position: fixed ;
-       width: 13%;
+       width: 12vw;
        height: auto;
        top: 2vh; 
        left: 3.5vw;
@@ -34,29 +34,7 @@
        /* the nav bar */
        
        .nav {
-       background-color: white;
-       position: fixed;
-       color:  rgba(29,37,58,.9);
-       font-family: Bignoodle , sans-serif; 
-       font-size: 200%;
-       display: flex;
-       justify-content: space-between;
-       gap: 3vw;
-       right: 7vw;
-       top: 2.3vh;
-       z-index: 2;
-       border-radius: 1vw;
-       padding: 1vw;
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
-       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
-       }
-       .nav a:hover {
-       color: #f3c026;
-         text-shadow: 0px 0px 5px #bb7e29;
-       }
-       .resnav{
-        display: none;
-       }
+         display : none ; }
        
        /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
        
@@ -77,11 +55,11 @@
        }
        .Hi{
          color: #f3c026;
-         text-shadow: 0px 0px 5px #bb7e29;
+         text-shadow: 0px 0px 1.3vw #bb7e29;
          position: absolute;
          top: 15vh;
          left: 24vw;
-         font-size: 550%;
+         font-size: 27vw;
        
          -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
                animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
@@ -89,31 +67,31 @@
        .name{
          color:  rgba(29,37,58,.9); 
          position: absolute;
-         top: 36vh ; 
+         top: 39vh ; 
          left: 8vw;
-         font-size:270% ;  
+         font-size: 11.5vw;  
          
            -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
                    animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;          
        }
        .current {
          color: #fff;
-         text-shadow: 0px 0px 5px black;
+         text-shadow: 0px 0px 1.3vw black;
          position: absolute;
-         top:  50vh ;
-         left: 17vw ; 
-         font-size: 180%; 
+         top:  52vh ;
+         left: 15vw ; 
+         font-size: 8vw; 
          font-family: noodle;
-         
+         max-width: 80vw;
          -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
                    animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
          
        }
        .profile {
            position : absolute; 
-           width : 30%; 
-           height: 16%;
-           top : 22vh ; 
+           width : 30vw; 
+           height: 17.5vh;
+           top : 24.5vh ; 
            right: 16vw ; 
            border-radius: 50%;
            -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
@@ -139,22 +117,22 @@
        .about{
         position: absolute;
         color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 1.3vw #bb7e29;
         position: absolute;
         font-family: Bignoodle ; 
-        font-size: 200%;
+        font-size: 8vw;
         top: 2vh ; 
         left: 12vw ;
        }
        .aboutvis{
        position: absolute;
        color: #f3c026;
-       text-shadow: 0px 0px 5px #bb7e29;
+       text-shadow: 0px 0px 1.3vw #bb7e29;
        position: absolute;
        font-family: Bignoodle ;
        top: 2vh ; 
        left: 12vw ; 
-       font-size: 200%;
+       font-size: 8vw;
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
        }
@@ -162,8 +140,8 @@
        position: absolute;
        top: 10vh ; 
        left: 5vw;
-         font-size: 150% ;  
-         
+         font-size: 6vw ;  
+         max-width: 90vw;
        font-family: noodle;
 
        color: rgba(29,37,58,.9);
@@ -173,31 +151,31 @@
        position: absolute;
        top: 10vh ; 
        left: 5vw;
-       font-size: 150% ;  
+       font-size: 6vw ;  
        font-family: noodle;
-       
+       max-width: 90vw;
        color: rgba(29,37,58,.9);
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
        }
        .h2-1{
        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 1.3vw #bb7e29;
        position: absolute;
        top: 55vh ; 
        left: 5vw;
-       font-size: 150% ; 
+       font-size: 6vw ; 
        
        font-family: noodle;
        width: fit-content;}
        
        .h2-1vis{
        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 1.3vw #bb7e29;
        position: absolute;
        top: 55vh ; 
        left: 5vw;
-       font-size: 150% ;  
+       font-size: 6vw ;  
        
        font-family: noodle;
        width: fit-content;
@@ -207,11 +185,11 @@
        }
        .p2{
        color: #fff;
-       text-shadow: 0px 0px 5px black;
+       text-shadow: 0px 0px 1.3vw black;
        position: absolute;
-       top: 65vh ; 
+       top: 64vh ; 
        left: 4vw;
-       font-size: 110% ;   
+       font-size: 4vw ;   
        
        width: fit-content;
        font-family: noodle;
@@ -221,11 +199,11 @@
        }
        .p2vis{
        color: #fff;
-       text-shadow: 0px 0px 5px black;
+       text-shadow: 0px 0px 1.3vw black;
        position: absolute;
-       top: 65vh ; 
+       top: 64vh ; 
        left: 4vw;
-       font-size: 110% ;  
+       font-size: 4vw ;  
        
        width: fit-content;
        font-family: noodle;
@@ -238,11 +216,11 @@
        
        .h2-2{
        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 1.3vw #bb7e29;
        position: absolute;
-       top: 70vh ; 
+       top: 72vh ; 
        left: 35vw;
-       font-size: 150% ;  
+       font-size: 6vw ;  
        
        width: fit-content;
        font-family: noodle;
@@ -251,11 +229,11 @@
        
        .h2-2vis{
        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 1.3vw #bb7e29;
        position: absolute;
-       top: 70vh ; 
+       top: 72vh ; 
        left: 35vw;
-       font-size: 150% ;  
+       font-size: 6vw ;  
        
        width: fit-content;
        font-family: noodle;
@@ -264,20 +242,20 @@
        }
        .p3{
        color: #fff;
-       text-shadow: 0px 0px 5px black;
+       text-shadow: 0px 0px 1.3vw black;
        position: absolute;
        top: 78vh ; 
        left: 35vw;
-       font-size: 110% ; 
+       font-size: 4vw ; 
        width: fit-content;
        }
        .p3vis{
        color: #fff;
-       text-shadow: 0px 0px 5px black;
+       text-shadow: 0px 0px 1.3vw black;
        position: absolute;
        top: 78vh ; 
        left: 35vw;
-       font-size: 110% ;   
+       font-size: 4vw ;  
          
        
        width: fit-content;
@@ -309,11 +287,11 @@
        .contact{
        position: absolute;
        color: #f3c026;
-       text-shadow: 0px 0px 5px #bb7e29;
+       text-shadow: 0px 0px 1.3vw #bb7e29;
        position: absolute;
        top: 5vh;
        left: 32vw;
-       font-size: 260%;
+       font-size: 12vw;
        font-family: Bignoodle ;
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
@@ -341,8 +319,8 @@
  } 
  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
-/* Tablets  800 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-@media only screen and (min-width:800px) {
+/* Tablets  600 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width:600px) {
         /* Cursor and all index effect */ 
         *{
          cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
@@ -352,9 +330,9 @@
        background-color: white;
        border-radius: 3vw;
        position: fixed ;
-       width: 5%;
+       width: 9vw;
        height: auto;
-       top: 3vh; 
+       top: 2vh; 
        left: 3.5vw;
        overflow: visible;
        -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
@@ -363,11 +341,12 @@
        }
        /* the nav bar */
        .nav {
+       display: block; 
        background-color: white;
        position: fixed;
        color:  rgba(29,37,58,.9);
        font-family: Bignoodle , sans-serif; 
-       font-size: 200%;
+       font-size: 6vw;
        display: flex;
        justify-content: space-between;
        gap: 2vw;
@@ -383,8 +362,9 @@
        }
        .nav a:hover {
        color: #f3c026;
-         text-shadow: 0px 0px 5px #bb7e29;
+         text-shadow: 0px 0px 0.8vw #bb7e29;
        }
+
        /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
        
        /* section 1 + */ 
@@ -395,59 +375,50 @@
          padding: 0;
         
        }
-       .section1 {
-          height: 99vh;
-          position: relative;
-          font-family: Bignoodle , sans-serif; 
-          margin: 0 ; 
-          overflow: hidden;
-       }
        .Hi{
-         color: #f3c026;
-         text-shadow: 0px 0px 5px #bb7e29;
-         position: absolute;
-         top: 25vh;
-         left: 13vw;
-         font-size: 520%;
-       
-         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
-       }
-       .name{
-         color:  rgba(29,37,58,.9); 
-         position: absolute;
-         top: 34vh ; 
-         left: 23vw;
-         font-size: 230% ;  
-         
-           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   
-       }
-       .current {
-         color: #fff;
-         text-shadow: 0px 0px 5px black;
-         position: absolute;
-         top:  47vh ;
-         left: 17vw ; 
-         font-size: 120%; 
-         font-family: noodle;
-         
-         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
-         
-       }
-       .profile {
-           position : absolute; 
-           width : 22%; 
-           height: 30%;
-           top : 32vh ; 
-           right: 15vw ; 
-           border-radius: 50%;
-           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-         
-       }
+        color: #f3c026;
+        text-shadow: 0px 0px 0.8vw #bb7e29;
+        position: absolute;
+        top: 14vh;
+        left: 22vw;
+        font-size: 24vw;
+      
+        -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+              animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+      }
+      .name{
+        color:  rgba(29,37,58,.9); 
+        position: absolute;
+        top: 41vh ; 
+        left: 14vw;
+        font-size: 9.5vw;  
+        
+          -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                  animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;          
+      }
+      .current {
+        color: #fff;
+        text-shadow: 0px 0px 0.8vw black;
+        position: absolute;
+        top:  58vh ;
+        left: 12vw ; 
+        font-size: 6vw; 
+        font-family: noodle;
+        max-width: 80vw;
+        -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                  animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+      }
+      .profile {
+          position : absolute; 
+          width : 26vw; 
+          height: 18vh;
+          top : 26vh ; 
+          right: 23vw ; 
+          border-radius: 50%;
+          -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                  animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        
+      }
        
        /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
        
@@ -456,217 +427,213 @@
        /* section 2 */ 
        .section2 {
         top: 7vh ; 
-        height: 85vh;
+        height: 90vh;
         position: relative;
         background-image: url("./Pics/2600_Silver_Background.jpg");
         border-radius: 25px;
-        margin: 2vh; 
+        margin: 0vh; 
         overflow-x: hidden;
         }
        
-       .about{
-        position: absolute;
-        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-        position: absolute;
-        font-family: Bignoodle ; 
-        font-size: 300%;
-        top: 7vh ; 
-        left: 12vw ;
-       }
-       .aboutvis{
-       position: absolute;
-       color: #f3c026;
-       text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       font-family: Bignoodle ;
-       top: 7vh ; 
-       left: 12vw ; 
-       font-size: 300%;
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
-       }
-       .p1{
-       position: absolute;
-          top: 20vh ; 
-          left: 7vw;
-         font-size: 170% ;  
-         
-       font-family: noodle;
-       width: 50%;
-       color: rgba(29,37,58,.9);
-       
-       }
-       .p1vis{
-       position: absolute;
-       top: 20vh ; 
-       left: 7vw;
-       font-size: 170% ;  
-       
-       font-family: noodle;
-       width: 50%;
-       color: rgba(29,37,58,.9);
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
-       }
-       .h2-1{
-       color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 23vh ; 
-       left: 70vw;
-       font-size: 170% ;  
-       
-       font-family: noodle;
-       width: fit-content;}
-       
-       .h2-1vis{
-       color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 23vh ; 
-       left: 70vw;
-       font-size: 170% ;  
-       
-       font-family: noodle;
-       width: fit-content;
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+        .about{
+                position: absolute;
+                color: #f3c026;
+                text-shadow: 0px 0px 0.8vw #bb7e29;
+                position: absolute;
+                font-family: Bignoodle ; 
+                font-size: 8vw;
+                top: 2vh ; 
+                left: 12vw ;
+               }
+               .aboutvis{
+               position: absolute;
+               color: #f3c026;
+               text-shadow: 0px 0px 0.8vw #bb7e29;
+               position: absolute;
+               font-family: Bignoodle ;
+               top: 2vh ; 
+               left: 12vw ; 
+               font-size: 8vw;
+               -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+               animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+               }
+               .p1{
+               position: absolute;
+               top: 10vh ; 
+               left: 5vw;
+               font-size: 5vw ;  
+               font-family: noodle;
+               color: rgba(29,37,58,.9);
+               
+               }
+               .p1vis{
+               position: absolute;
+               top: 10vh ; 
+               left: 5vw;
+               font-size: 5vw ;  
+               font-family: noodle;
+               
+               color: rgba(29,37,58,.9);
+               -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+               animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+               }
+               .h2-1{
+               color: #f3c026;
+                text-shadow: 0px 0px 0.8vw #bb7e29;
+               position: absolute;
+               top: 51vh ; 
+               left: 5vw;
+               font-size: 6vw ; 
+               
+               font-family: noodle;
+               width: fit-content;}
+               
+               .h2-1vis{
+               color: #f3c026;
+                text-shadow: 0px 0px 0.8vw #bb7e29;
+               position: absolute;
+               top: 51vh ; 
+               left: 5vw;
+               font-size: 6vw ;  
+               
+               font-family: noodle;
+               width: fit-content;
+               -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+                       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+               
+               }
+               .p2{
+               color: #fff;
+               text-shadow: 0px 0px 0.8vw black;
+               position: absolute;
+               top: 60vh ; 
+               left: 4vw;
+               font-size: 4vw ;   
+               
+               width: fit-content;
+               font-family: noodle;
+               border-radius: 0;
+               margin: 0;
+               
+               }
+               .p2vis{
+               color: #fff;
+               text-shadow: 0px 0px 0.8vw black;
+               position: absolute;
+               top: 60vh ; 
+               left: 4vw;
+               font-size: 4vw ;  
+               
+               width: fit-content;
+               font-family: noodle;
+               border-radius: 0;
+               margin: 0;
+               
+               -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
                animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-       
-       }
-       .p2{
-       color: #fff;
-       text-shadow: 0px 0px 5px black;
-       position: absolute;
-       top: 32vh ; 
-       left: 65vw;
-       font-size: 110% ;  
-       
-       width: fit-content;
-       font-family: noodle;
-       border-radius: 0;
-       margin: 0;
-       
-       }
-       .p2vis{
-       color: #fff;
-       text-shadow: 0px 0px 5px black;
-       position: absolute;
-       top: 32vh ; 
-       left: 65vw;
-       font-size: 110% ;  
-       
-       width: fit-content;
-       font-family: noodle;
-       border-radius: 0;
-       margin: 0;
-       
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-       }
-       
-       .h2-2{
-       color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 45vh ; 
-       left: 70vw;
-       font-size: 170% ;  
-       
-       width: fit-content;
-       font-family: noodle;
-       
-       }
-       
-       .h2-2vis{
-       color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 45vh ; 
-       left: 70vw;
-       font-size: 170% ;  
-       
-       width: fit-content;
-       font-family: noodle;
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
-       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
-       }
-       .p3{
-       color: #fff;
-       text-shadow: 0px 0px 5px black;
-       position: absolute;
-       top: 52vh ; 
-       left: 65vw;
-       font-size: 110% ;  
-       width: fit-content;
-       }
-       .p3vis{
-       color: #fff;
-       text-shadow: 0px 0px 5px black;
-       position: absolute;
-       top: 52vh ; 
-       left: 65vw;
-       font-size: 110% ;  
-       
-       width: fit-content;
-       
-       font-family: noodle;
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
-       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
-       
-       }
-       
+               }
+               
+               .h2-2{
+               color: #f3c026;
+                text-shadow: 0px 0px 0.8vw #bb7e29;
+               position: absolute;
+               top: 68vh ; 
+               left: 35vw;
+               font-size: 6vw ;  
+               
+               width: fit-content;
+               font-family: noodle;
+               
+               }
+               
+               .h2-2vis{
+               color: #f3c026;
+                text-shadow: 0px 0px 0.8vw #bb7e29;
+               position: absolute;
+               top: 68vh ; 
+               left: 35vw;
+               font-size: 6vw ;  
+               
+               width: fit-content;
+               font-family: noodle;
+               -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+               }
+               .p3{
+               color: #fff;
+               text-shadow: 0px 0px 0.8vw black;
+               position: absolute;
+               top: 74vh ; 
+               left: 35vw;
+               font-size: 4vw ; 
+               width: fit-content;
+               }
+               .p3vis{
+               color: #fff;
+               text-shadow: 0px 0px 0.8vw black;
+               position: absolute;
+               top: 74vh ; 
+               left: 35vw;
+               font-size: 4vw ;  
+                 
+               
+               width: fit-content;
+               
+               font-family: noodle;
+               -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+               
+               }
        
        /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
        
        
        /* section 3 */
        .section3 {
-       top : 15vh ; 
-       height: 99vh;
-       position: relative;
-       overflow-x: hidden;
-       }
-       .section3in{
-       position: relative;
-       height: 90vh;
-       margin:  2vh ; 
-       border-radius: 25px;
-       background-image: url("./Pics/1600_Sky.jpg");
-       }
-       .contact{
-       position: absolute;
-       color: #f3c026;
-       text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 32vh;
-       left: 13vw;
-       font-size: 360%;
-       font-family: Bignoodle ;
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
-       }
-       .facebook{
-       position: absolute; 
-       top: 39vh;
-       left: 37vw ;
-       width: 7vw;
-       size: 40%;
-       cursor: pointer;
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
-       }
-       .twitter{
-       position: absolute; 
-       top: 39vh;
-       left: 47vw ;
-       width: 7vw;
-       size: 40%;
-       cursor: pointer;
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
-       }
-       
+        top : 15vh ; 
+        height: 99vh;
+        position: relative;
+        overflow-x: hidden;
+        }
+        .section3in{
+        position: relative;
+        height: 90vh;
+        margin:  0vh ; 
+        border-radius: 25px;
+        background-image: url("./Pics/1600_Sky.jpg");
+        }
+        .contact{
+        position: absolute;
+        color: #f3c026;
+        text-shadow: 0px 0px 0.8vw #bb7e29;
+        position: absolute;
+        top: 5vh;
+        left: 34vw;
+        font-size: 10vw;
+        font-family: Bignoodle ;
+        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+        }
+        .facebook{
+        position: absolute; 
+        top: 22vh;
+        left: 39vw ;
+        width: 13vw;
+        size: 40%;
+        cursor: pointer;
+        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+        }
+        .twitter{
+        position: absolute; 
+        top: 35vh;
+        left: 39vw ;
+        width: 13vw;
+        size: 40%;
+        cursor: pointer;
+        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+        }
        
        } 
  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
@@ -682,7 +649,7 @@
 background-color: white;
 border-radius: 3vw;
 position: fixed ;
-width: 5%;
+width: 5.5vw;
 height: auto;
 top: 3vh; 
 left: 3.5vw;
@@ -697,7 +664,7 @@ background-color: white;
 position: fixed;
 color:  rgba(29,37,58,.9);
 font-family: Bignoodle , sans-serif; 
-font-size: 250%;
+font-size: 3vw;
 display: flex;
 justify-content: space-between;
 gap: 2vw;
@@ -713,7 +680,7 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.
 }
 .nav a:hover {
 color: #f3c026 !important;
-  text-shadow: 0px 0px 5px #bb7e29;
+  text-shadow: 0px 0px 0.39vw #bb7e29;
 }
 .resnav{
         display: block;
@@ -737,11 +704,11 @@ color: #f3c026 !important;
 }
 .Hi{
   color: #f3c026;
-  text-shadow: 0px 0px 5px #bb7e29;
+  text-shadow: 0px 0px 0.39vw #bb7e29;
   position: absolute;
-  top: 25vh;
+  top: 23.5vh;
   left: 13vw;
-  font-size: 900%;
+  font-size: 11vw;
 
   -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
         animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
@@ -749,9 +716,9 @@ color: #f3c026 !important;
 .name{
   color:  rgba(29,37,58,.9); 
   position: absolute;
-  top: 37vh ; 
+  top: 35.5vh ; 
   left: 23vw;
-  font-size: 350% ;  
+  font-size: 4.9vw ;  
   
     -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
             animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
@@ -759,11 +726,11 @@ color: #f3c026 !important;
 }
 .current {
   color: #fff;
-  text-shadow: 0px 0px 5px black;
+  text-shadow: 0px 0px 0.39vw black;
   position: absolute;
   top:  53vh ;
-  left: 19vw ; 
-  font-size: 170%; 
+  left: 18vw ; 
+  font-size: 2.4vw; 
   font-family: noodle;
   
   -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
@@ -772,9 +739,9 @@ color: #f3c026 !important;
 }
 .profile {
     position : absolute; 
-    width : 25%; 
-    height: 40%;
-    top : 28vh ; 
+    width : 23vw; 
+    height: 35vh;
+    top : 32vh ; 
     right: 15vw ; 
     border-radius: 50%;
     -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
@@ -800,31 +767,31 @@ color: #f3c026 !important;
 .about{
  position: absolute;
  color: #f3c026;
- text-shadow: 0px 0px 5px #bb7e29;
+ text-shadow: 0px 0px 0.39vw #bb7e29;
  position: absolute;
  font-family: Bignoodle ; 
- font-size: 400%;
- top: 7vh ; 
- left: 12vw ;
+ top: 3vh ; 
+ left: 12vw ; 
+ font-size: 6vw;
 }
 .aboutvis{
 position: absolute;
 color: #f3c026;
-text-shadow: 0px 0px 5px #bb7e29;
+text-shadow: 0px 0px 0.39vw #bb7e29;
 position: absolute;
 font-family: Bignoodle ;
-top: 7vh ; 
+top: 3vh ; 
 left: 12vw ; 
-font-size: 400%;
+font-size: 6vw;
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
 }
 .p1{
 position: absolute;
-   top: 22vh ; 
-   left: 7vw;
-  font-size: 240% ;  
-  
+top: 19vh ; 
+left: 7vw;
+font-size: 3vw ;   
+max-width: 100vw;
 font-family: noodle;
 width: 50%;
 color: rgba(29,37,58,.9);
@@ -832,10 +799,10 @@ color: rgba(29,37,58,.9);
 }
 .p1vis{
 position: absolute;
-top: 22vh ; 
+top: 19vh ; 
 left: 7vw;
-font-size: 240% ;  
-
+font-size: 3vw ;  
+max-width: 100vw;
 font-family: noodle;
 width: 50%;
 color: rgba(29,37,58,.9);
@@ -844,22 +811,21 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) bot
 }
 .h2-1{
 color: #f3c026;
- text-shadow: 0px 0px 5px #bb7e29;
+ text-shadow: 0px 0px 0.39vw #bb7e29;
 position: absolute;
 top: 23vh ; 
 left: 75vw;
-font-size: 200% ;  
-
+font-size: 2.5vw;  
 font-family: noodle;
 width: fit-content;}
 
 .h2-1vis{
 color: #f3c026;
- text-shadow: 0px 0px 5px #bb7e29;
+ text-shadow: 0px 0px 0.39vw #bb7e29;
 position: absolute;
 top: 23vh ; 
 left: 75vw;
-font-size: 200% ;  
+font-size: 2.5vw;  
 
 font-family: noodle;
 width: fit-content;
@@ -869,12 +835,12 @@ width: fit-content;
 }
 .p2{
 color: #fff;
-text-shadow: 0px 0px 5px black;
+text-shadow: 0px 0px 0.39vw black;
 position: absolute;
 top: 32vh ; 
 left: 74vw;
-font-size: 150% ;  
-
+font-size: 1.7vw ;  
+max-width: 70vw;
 width: fit-content;
 font-family: noodle;
 border-radius: 0;
@@ -883,12 +849,12 @@ margin: 0;
 }
 .p2vis{
 color: #fff;
-text-shadow: 0px 0px 5px black;
+text-shadow: 0px 0px 0.39vw black;
 position: absolute;
 top: 32vh ; 
 left: 74vw;
-font-size: 150% ;  
-
+font-size: 1.7vw ;  
+max-width: 70vw;
 width: fit-content;
 font-family: noodle;
 border-radius: 0;
@@ -900,12 +866,11 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
 
 .h2-2{
 color: #f3c026;
- text-shadow: 0px 0px 5px #bb7e29;
+ text-shadow: 0px 0px 0.39vw #bb7e29;
 position: absolute;
 top: 45vh ; 
 left: 75vw;
-font-size: 200% ;  
-
+font-size: 2.5vw;
 width: fit-content;
 font-family: noodle;
 
@@ -913,12 +878,11 @@ font-family: noodle;
 
 .h2-2vis{
 color: #f3c026;
- text-shadow: 0px 0px 5px #bb7e29;
+ text-shadow: 0px 0px 0.39vw #bb7e29;
 position: absolute;
 top: 45vh ; 
 left: 75vw;
-font-size: 200% ;  
-
+font-size: 2.5vw; 
 width: fit-content;
 font-family: noodle;
 -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
@@ -926,21 +890,22 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
 }
 .p3{
 color: #fff;
-text-shadow: 0px 0px 5px black;
+text-shadow: 0px 0px 0.39vw black;
 position: absolute;
 top: 52vh ; 
 left: 74vw;
-font-size: 150% ;  
+font-size: 1.7vw ;  
+max-width: 70vw; 
 width: fit-content;
 }
 .p3vis{
 color: #fff;
-text-shadow: 0px 0px 5px black;
+text-shadow: 0px 0px 0.39vw black;
 position: absolute;
 top: 52vh ; 
 left: 74vw;
-font-size: 150% ;  
-
+font-size: 1.7vw ;  
+max-width: 70vw;
 width: fit-content;
 
 font-family: noodle;
@@ -970,11 +935,11 @@ background-image: url("./Pics/1600_Sky.jpg");
 .contact{
 position: absolute;
 color: #f3c026;
-text-shadow: 0px 0px 5px #bb7e29;
+text-shadow: 0px 0px 0.39vw #bb7e29;
 position: absolute;
 top: 33vh;
 left: 13vw;
-font-size: 500%;
+font-size: 6vw;
 font-family: Bignoodle ;
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
@@ -1015,7 +980,7 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        background-color: white;
        border-radius: 3vw;
        position: fixed ;
-       width: 5%;
+       width: 5.5vw;
        height: auto;
        top: 3vh; 
        left: 3.5vw;
@@ -1030,7 +995,7 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        position: fixed;
        color:  rgba(29,37,58,.9);
        font-family: Bignoodle , sans-serif; 
-       font-size: 250%;
+       font-size: 3vw;
        display: flex;
        justify-content: space-between;
        gap: 2vw;
@@ -1046,7 +1011,7 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        }
        .nav a:hover {
        color: #f3c026 !important;
-         text-shadow: 0px 0px 5px #bb7e29;
+         text-shadow: 0px 0px 0.3477222vw #bb7e29;
        }
        .resnav{
         display: block;
@@ -1063,65 +1028,64 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
         
        }
        .section1 {
-          height: 99vh;
-          position: relative;
-          font-family: Bignoodle , sans-serif; 
-          margin: 0 ; 
-          overflow: hidden;
-       }
-       .Hi{
-         color: #f3c026;
-         text-shadow: 0px 0px 5px #bb7e29;
-         position: absolute;
-         top: 23vh;
-         left: 13vw;
-         font-size: 900%;
+        height: 99vh;
+        position: relative;
+        font-family: Bignoodle , sans-serif; 
+        margin: 0 ; 
+        overflow: hidden;
+     }
+     .Hi{
+       color: #f3c026;
+       text-shadow: 0px 0px 0.3477222vw #bb7e29;
+       position: absolute;
+       top: 23.5vh;
+       left: 13vw;
+       font-size: 11vw;
+     
+       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+             animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+     }
+     .name{
+       color:  rgba(29,37,58,.9); 
+       position: absolute;
+       top: 35.5vh ; 
+       left: 23vw;
+       font-size: 4.9vw ;  
        
-         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
-       }
-       .name{
-         color:  rgba(29,37,58,.9); 
-         position: absolute;
-         top: 33vh ; 
-         left: 23vw;
-         font-size: 430% ;  
-         
-           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   
-       }
-       .current {
-         color: #fff;
-         text-shadow: 0px 0px 5px black;
-         position: absolute;
-         top:  53vh ;
-         left: 19vw ; 
-         font-size: 200%; 
-         font-family: noodle;
-         
-         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
-         
-       }
-       .profile {
-           position : absolute; 
-           width : 23%; 
-           height: 40%;
-           top : 28vh ; 
-           right: 15vw ; 
-           border-radius: 50%;
-           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-         
-       }
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                 animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                 
+     }
+     .current {
+       color: #fff;
+       text-shadow: 0px 0px 0.3477222vw black;
+       position: absolute;
+       top:  53vh ;
+       left: 18vw ; 
+       font-size: 2.4vw; 
+       font-family: noodle;
+       
+       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                 animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+       
+     }
+     .profile {
+         position : absolute; 
+         width : 23vw; 
+         height: 35vh;
+         top : 32vh ; 
+         right: 15vw ; 
+         border-radius: 50%;
+         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                 animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+       
+     }
+     
        
        /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
-       
-       
-       
-       /* section 2 */ 
-       .section2 {
+
+/* section 2 */ 
+.section2 {
         top: 7vh ; 
         height: 90vh;
         position: relative;
@@ -1134,31 +1098,31 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        .about{
         position: absolute;
         color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 0.3477222vw #bb7e29;
         position: absolute;
         font-family: Bignoodle ; 
-        font-size: 480%;
-        top: 4vh ; 
-        left: 12vw ;
+        top: 3vh ; 
+        left: 12vw ; 
+        font-size: 6vw;
        }
        .aboutvis{
        position: absolute;
        color: #f3c026;
-       text-shadow: 0px 0px 5px #bb7e29;
+       text-shadow: 0px 0px 0.3477222vw #bb7e29;
        position: absolute;
        font-family: Bignoodle ;
-       top: 4vh ; 
+       top: 3vh ; 
        left: 12vw ; 
-       font-size: 480%;
+       font-size: 6vw;
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
        }
        .p1{
        position: absolute;
-          top: 22vh ; 
-          left: 7vw;
-         font-size: 240% ;  
-         
+       top: 19vh ; 
+       left: 7vw;
+       font-size: 3vw ;   
+       max-width: 100vw;
        font-family: noodle;
        width: 50%;
        color: rgba(29,37,58,.9);
@@ -1166,9 +1130,10 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        }
        .p1vis{
        position: absolute;
-       top: 22vh ; 
+       top: 19vh ; 
        left: 7vw;
-       font-size: 240% ;  
+       font-size: 3vw ;  
+       max-width: 100vw;
        font-family: noodle;
        width: 50%;
        color: rgba(29,37,58,.9);
@@ -1177,22 +1142,21 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        }
        .h2-1{
        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 0.3477222vw #bb7e29;
        position: absolute;
-       top: 22vh ; 
+       top: 23vh ; 
        left: 75vw;
-       font-size: 200% ;  
-       
+       font-size: 2.5vw;  
        font-family: noodle;
        width: fit-content;}
        
        .h2-1vis{
        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 0.3477222vw #bb7e29;
        position: absolute;
-       top: 22vh ; 
+       top: 23vh ; 
        left: 75vw;
-       font-size: 200% ;  
+       font-size: 2.5vw;  
        
        font-family: noodle;
        width: fit-content;
@@ -1202,12 +1166,12 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        }
        .p2{
        color: #fff;
-       text-shadow: 0px 0px 5px black;
+       text-shadow: 0px 0px 0.3477222vw black;
        position: absolute;
        top: 32vh ; 
-       left: 75vw;
-       font-size: 150% ;  
-       
+       left: 74vw;
+       font-size: 1.7vw ;  
+       max-width: 70vw;
        width: fit-content;
        font-family: noodle;
        border-radius: 0;
@@ -1216,12 +1180,12 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        }
        .p2vis{
        color: #fff;
-       text-shadow: 0px 0px 5px black;
+       text-shadow: 0px 0px 0.3477222vw black;
        position: absolute;
        top: 32vh ; 
-       left: 75vw;
-       font-size: 150% ;  
-       
+       left: 74vw;
+       font-size: 1.7vw ;  
+       max-width: 70vw;
        width: fit-content;
        font-family: noodle;
        border-radius: 0;
@@ -1233,12 +1197,11 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        
        .h2-2{
        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 0.3477222vw #bb7e29;
        position: absolute;
        top: 45vh ; 
        left: 75vw;
-       font-size: 200% ;  
-       
+       font-size: 2.5vw;
        width: fit-content;
        font-family: noodle;
        
@@ -1246,12 +1209,11 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        
        .h2-2vis{
        color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 0.3477222vw #bb7e29;
        position: absolute;
        top: 45vh ; 
        left: 75vw;
-       font-size: 200% ;  
-       
+       font-size: 2.5vw; 
        width: fit-content;
        font-family: noodle;
        -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
@@ -1259,21 +1221,22 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        }
        .p3{
        color: #fff;
-       text-shadow: 0px 0px 5px black;
+       text-shadow: 0px 0px 0.3477222vw black;
        position: absolute;
        top: 52vh ; 
-       left: 75vw;
-       font-size: 150% ;  
+       left: 74vw;
+       font-size: 1.7vw ;  
+       max-width: 70vw; 
        width: fit-content;
        }
        .p3vis{
        color: #fff;
-       text-shadow: 0px 0px 5px black;
+       text-shadow: 0px 0px 0.3477222vw black;
        position: absolute;
        top: 52vh ; 
-       left: 75vw;
-       font-size: 150% ;  
-       
+       left: 74vw;
+       font-size: 1.7vw ;  
+       max-width: 70vw;
        width: fit-content;
        
        font-family: noodle;
@@ -1303,11 +1266,11 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        .contact{
        position: absolute;
        color: #f3c026;
-       text-shadow: 0px 0px 5px #bb7e29;
+       text-shadow: 0px 0px 0.3477222vw #bb7e29;
        position: absolute;
-       top: 34vh;
+       top: 33vh;
        left: 13vw;
-       font-size: 500%;
+       font-size: 6vw;
        font-family: Bignoodle ;
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
@@ -1332,7 +1295,6 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
        }
-       
        
 } 
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
@@ -1340,332 +1302,330 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
 
 /* PCs  1920 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 @media only  screen and (min-width: 1920px ) {
-        /* Cursor and all index effect */ 
-        *{
-         cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
-       }
-       /* the logo */ 
-       .logo {
-       background-color: white;
-       border-radius: 3vw;
-       position: fixed ;
-       width: 5%;
-       height: auto;
-       top: 3vh; 
-       left: 3.5vw;
-       overflow: visible;
-       -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
-               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
-       z-index: 2;
-       }
-       /* the nav bar */
-       .nav {
-       background-color: white;
-       position: fixed;
-       color:  rgba(29,37,58,.9);
-       font-family: Bignoodle , sans-serif; 
-       font-size: 350%;
-       display: flex;
-       justify-content: space-between;
-       gap: 2vw;
-       right: 3vw;
-       top: 3vh;
-       z-index: 2;
-       border-radius: 1vw;
-       padding: 1vw;
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
-       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
-       }
-       .nav a:hover {
-       color: #f3c026 !important;
-         text-shadow: 0px 0px 5px #bb7e29;
-       }
-      
-
-       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
-       
-       /* section 1 + */ 
-       .whole {
-         position: relative;
-         z-index: 1;
-         margin: 0;
-         padding: 0;
-        
-       }
-       .section1 {
-          height: 99vh;
-          position: relative;
-          font-family: Bignoodle , sans-serif; 
-          margin: 0 ; 
-          overflow: hidden;
-       }
-       .Hi{
-         color: #f3c026;
-         text-shadow: 0px 0px 5px #bb7e29;
-         position: absolute;
-         top: 24vh;
-         left: 13vw;
-         font-size: 1100%;
-       
-         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-               animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
-       }
-       .name{
-         color:  rgba(29,37,58,.9); 
-         position: absolute;
-         top: 33vh ; 
-         left: 23vw;
-         font-size: 570% ;  
-         
-           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   
-       }
-       .current {
-         color: #fff;
-         text-shadow: 0px 0px 5px black;
-         position: absolute;
-         top:  52vh ;
-         left: 15vw ; 
-         font-size: 320%; 
-         font-family: noodle;
-         
-         -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
-         
-       }
-       .profile {
-           position : absolute; 
-           width : 24%; 
-           height: 41%;
-           top : 30vh ; 
-           right: 14vw ; 
-           border-radius: 50%;
-           -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-                   animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-         
-       }
-       
-       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
-       
-       
-       
-       /* section 2 */ 
-       .section2 {
-        top: 7vh ; 
-        height: 90vh;
-        position: relative;
-        background-image: url("./Pics/2600_Silver_Background.jpg");
-        border-radius: 25px;
-        margin: 2vh; 
-        overflow-x: hidden;
+ /* Cursor and all index effect */ 
+*{cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;}
+  /* the logo */ 
+  .logo {
+        background-color: white;
+        border-radius: 3vw;
+        position: fixed ;
+        width: 5.5vw;
+        height: auto;
+        top: 3vh; 
+        left: 3.5vw;
+        overflow: visible;
+        -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+                animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+        z-index: 2;
         }
-       
-       .about{
+        /* the nav bar */
+        .nav {
+        background-color: white;
+        position: fixed;
+        color:  rgba(29,37,58,.9);
+        font-family: Bignoodle , sans-serif; 
+        font-size: 3vw;
+        display: flex;
+        justify-content: space-between;
+        gap: 2vw;
+        right: 3vw;
+        top: 3vh;
+        z-index: 2;
+        border-radius: 1vw;
+        padding: 1vw;
+        
+        -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+        
+        }
+        .nav a:hover {
+        color: #f3c026 !important;
+          text-shadow: 0px 0px 0.26vw #bb7e29;
+        }
+        .resnav{
+         display: block;
+        }
+        
+        /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+        
+        /* section 1 + */ 
+        .whole {
+          position: relative;
+          z-index: 1;
+          margin: 0;
+          padding: 0;
+         
+        }
+        .section1 {
+         height: 99vh;
+         position: relative;
+         font-family: Bignoodle , sans-serif; 
+         margin: 0 ; 
+         overflow: hidden;
+      }
+      .Hi{
+        color: #f3c026;
+        text-shadow: 0px 0px 0.26vw #bb7e29;
+        position: absolute;
+        top: 23.5vh;
+        left: 13vw;
+        font-size: 11vw;
+      
+        -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+              animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+      }
+      .name{
+        color:  rgba(29,37,58,.9); 
+        position: absolute;
+        top: 35.5vh ; 
+        left: 23vw;
+        font-size: 4.9vw ;  
+        
+          -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                  animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                  
+      }
+      .current {
+        color: #fff;
+        text-shadow: 0px 0px 0.26vw black;
+        position: absolute;
+        top:  53vh ;
+        left: 18vw ; 
+        font-size: 2.4vw; 
+        font-family: noodle;
+        
+        -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                  animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+        
+      }
+      .profile {
+          position : absolute; 
+          width : 23vw; 
+          height: 35vh;
+          top : 32vh ; 
+          right: 15vw ; 
+          border-radius: 50%;
+          -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                  animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        
+      }
+      
+        
+        /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+ 
+ /* section 2 */ 
+ .section2 {
+         top: 7vh ; 
+         height: 90vh;
+         position: relative;
+         background-image: url("./Pics/2600_Silver_Background.jpg");
+         border-radius: 25px;
+         margin: 2vh; 
+         overflow-x: hidden;
+         }
+        
+        .about{
+         position: absolute;
+         color: #f3c026;
+         text-shadow: 0px 0px 0.26vw #bb7e29;
+         position: absolute;
+         font-family: Bignoodle ; 
+         top: 3vh ; 
+         left: 12vw ; 
+         font-size: 6vw;
+        }
+        .aboutvis{
         position: absolute;
         color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
+        text-shadow: 0px 0px 0.26vw #bb7e29;
         position: absolute;
-        font-family: Bignoodle ; 
-        font-size: 600%;
-        top: 7vh ; 
-        left: 12vw ;
-       }
-       .aboutvis{
-       position: absolute;
-       color: #f3c026;
-       text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       font-family: Bignoodle ;
-       top: 7vh ; 
-       left: 12vw ; 
-       font-size: 600%;
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
-       }
-       .p1{
-       position: absolute;
-          top: 20vh ; 
-          left: 7vw;
-         font-size: 370% ;  
-         
-       font-family: noodle;
-       width: 50%;
-       color: rgba(29,37,58,.9);
+        font-family: Bignoodle ;
+        top: 3vh ; 
+        left: 12vw ; 
+        font-size: 6vw;
+        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+        }
+        .p1{
+        position: absolute;
+        top: 19vh ; 
+        left: 7vw;
+        font-size: 3vw ;   
+        max-width: 100vw;
+        font-family: noodle;
+        width: 50%;
+        color: rgba(29,37,58,.9);
+        
+        }
+        .p1vis{
+        position: absolute;
+        top: 19vh ; 
+        left: 7vw;
+        font-size: 3vw ;  
+        max-width: 100vw;
+        font-family: noodle;
+        width: 50%;
+        color: rgba(29,37,58,.9);
+        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+        }
+        .h2-1{
+        color: #f3c026;
+         text-shadow: 0px 0px 0.26vw #bb7e29;
+        position: absolute;
+        top: 23vh ; 
+        left: 75vw;
+        font-size: 2.5vw;  
+        font-family: noodle;
+        width: fit-content;}
+        
+        .h2-1vis{
+        color: #f3c026;
+         text-shadow: 0px 0px 0.26vw #bb7e29;
+        position: absolute;
+        top: 23vh ; 
+        left: 75vw;
+        font-size: 2.5vw;  
+        
+        font-family: noodle;
+        width: fit-content;
+        -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+                animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+        
+        }
+        .p2{
+        color: #fff;
+        text-shadow: 0px 0px 0.26vw black;
+        position: absolute;
+        top: 32vh ; 
+        left: 74vw;
+        font-size: 1.7vw ;  
+        max-width: 70vw;
+        width: fit-content;
+        font-family: noodle;
+        border-radius: 0;
+        margin: 0;
+        
+        }
+        .p2vis{
+        color: #fff;
+        text-shadow: 0px 0px 0.26vw black;
+        position: absolute;
+        top: 32vh ; 
+        left: 74vw;
+        font-size: 1.7vw ;  
+        max-width: 70vw;
+        width: fit-content;
+        font-family: noodle;
+        border-radius: 0;
+        margin: 0;
+        
+        -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+        }
+        
+        .h2-2{
+        color: #f3c026;
+         text-shadow: 0px 0px 0.26vw #bb7e29;
+        position: absolute;
+        top: 45vh ; 
+        left: 75vw;
+        font-size: 2.5vw;
+        width: fit-content;
+        font-family: noodle;
+        
+        }
+        
+        .h2-2vis{
+        color: #f3c026;
+         text-shadow: 0px 0px 0.26vw #bb7e29;
+        position: absolute;
+        top: 45vh ; 
+        left: 75vw;
+        font-size: 2.5vw; 
+        width: fit-content;
+        font-family: noodle;
+        -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+        }
+        .p3{
+        color: #fff;
+        text-shadow: 0px 0px 0.26vw black;
+        position: absolute;
+        top: 52vh ; 
+        left: 74vw;
+        font-size: 1.7vw ;  
+        max-width: 70vw; 
+        width: fit-content;
+        }
+        .p3vis{
+        color: #fff;
+        text-shadow: 0px 0px 0.26vw black;
+        position: absolute;
+        top: 52vh ; 
+        left: 74vw;
+        font-size: 1.7vw ;  
+        max-width: 70vw;
+        width: fit-content;
+        
+        font-family: noodle;
+        -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+        
+        }
+        
+        
+        /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+        
+        
+        /* section 3 */
+        .section3 {
+        top : 15vh ; 
+        height: 99vh;
+        position: relative;
+        overflow-x: hidden;
+        }
+        .section3in{
+        position: relative;
+        height: 90vh;
+        margin:  2vh ; 
+        border-radius: 25px;
+        background-image: url("./Pics/1600_Sky.jpg");
+        }
+        .contact{
+        position: absolute;
+        color: #f3c026;
+        text-shadow: 0px 0px 0.26vw #bb7e29;
+        position: absolute;
+        top: 33vh;
+        left: 13vw;
+        font-size: 6vw;
+        font-family: Bignoodle ;
+        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+        }
+        .facebook{
+        position: absolute; 
+        top: 39vh;
+        left: 37vw ;
+        width: 7vw;
+        size: 40%;
+        cursor: pointer;
+        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+        }
+        .twitter{
+        position: absolute; 
+        top: 39vh;
+        left: 47vw ;
+        width: 7vw;
+        size: 40%;
+        cursor: pointer;
+        -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+        }
        
-       }
-       .p1vis{
-       position: absolute;
-       top: 20vh ; 
-       left: 7vw;
-       font-size: 370% ;  
-       
-       font-family: noodle;
-       width: 50%;
-       color: rgba(29,37,58,.9);
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
-       }
-       .h2-1{
-       color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 21vh ; 
-       left: 75vw;
-       font-size: 350% ;  
-       
-       font-family: noodle;
-       width: fit-content;}
-       
-       .h2-1vis{
-       color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 21vh ; 
-       left: 75vw;
-       font-size: 350% ;  
-       
-       font-family: noodle;
-       width: fit-content;
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-               animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-       
-       }
-       .p2{
-       color: #fff;
-       text-shadow: 0px 0px 5px black;
-       position: absolute;
-       top: 32vh ; 
-       left: 72vw;
-       font-size: 250% ;  
-       
-       width: fit-content;
-       font-family: noodle;
-       border-radius: 0;
-       margin: 0;
-       
-       }
-       .p2vis{
-       color: #fff;
-       text-shadow: 0px 0px 5px black;
-       position: absolute;
-       top: 32vh ; 
-       left: 72vw;
-       font-size: 250% ;  
-       
-       width: fit-content;
-       font-family: noodle;
-       border-radius: 0;
-       margin: 0;
-       
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-       }
-       
-       .h2-2{
-       color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 45vh ; 
-       left: 75vw;
-       font-size: 350% ;  
-       
-       width: fit-content;
-       font-family: noodle;
-       
-       }
-       
-       .h2-2vis{
-       color: #f3c026;
-        text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 45vh ; 
-       left: 75vw;
-       font-size: 350% ;  
-       
-       width: fit-content;
-       font-family: noodle;
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
-       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
-       }
-       .p3{
-       color: #fff;
-       text-shadow: 0px 0px 5px black;
-       position: absolute;
-       top: 52vh ; 
-       left: 71vw;
-       font-size: 250% ;  
-       width: fit-content;
-       }
-       .p3vis{
-       color: #fff;
-       text-shadow: 0px 0px 5px black;
-       position: absolute;
-       top: 52vh ; 
-       left: 71vw;
-       font-size: 250% ;  
-       
-       width: fit-content;
-       
-       font-family: noodle;
-       -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
-       animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
-       
-       }
-       
-       
-       /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
-       
-       
-       /* section 3 */
-       .section3 {
-       top : 15vh ; 
-       height: 99vh;
-       position: relative;
-       overflow-x: hidden;
-       }
-       .section3in{
-       position: relative;
-       height: 90vh;
-       margin:  2vh ; 
-       border-radius: 25px;
-       background-image: url("./Pics/1600_Sky.jpg");
-       }
-       .contact{
-       position: absolute;
-       color: #f3c026;
-       text-shadow: 0px 0px 5px #bb7e29;
-       position: absolute;
-       top: 33vh;
-       left: 13vw;
-       font-size: 700%;
-       font-family: Bignoodle ;
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
-       }
-       .facebook{
-       position: absolute; 
-       top: 39vh;
-       left: 37vw ;
-       width: 7vw;
-       size: 40%;
-       cursor: pointer;
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
-       }
-       .twitter{
-       position: absolute; 
-       top: 39vh;
-       left: 47vw ;
-       width: 7vw;
-       size: 40%;
-       cursor: pointer;
-       -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
-       animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
-       }
-       
-       
-       }     
+ }     
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
 /*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
