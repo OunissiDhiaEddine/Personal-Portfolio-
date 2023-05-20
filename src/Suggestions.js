@@ -35,7 +35,10 @@ const handleSubmit = (event) => {
     })
     .catch((error) => {
       console.error("Error:", error);
+      setName("");
+      setSuggestion("");
     });
+    
 };
 
     return (
