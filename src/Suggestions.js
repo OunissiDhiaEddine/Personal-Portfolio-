@@ -22,7 +22,7 @@ const handleSubmit = (event) => {
   formData.append("suggestion", suggestion);
 
   // Send the form data to the PHP backend using fetch
-  fetch("http://localhost:8000/submit_suggestion.php", {
+  fetch("https://ounissibackend.000webhostapp.com", {
     method: "POST",
     body: formData,
   })

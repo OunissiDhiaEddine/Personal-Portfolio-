@@ -7,9 +7,9 @@ $suggestion = $_POST['suggestion'];
 
 // Connect to the MySQL server
 $servername = 'localhost'; 
-$username = 'root';
-$password = 'didou159';
-$dbname = 'Portfolio_Sug';
+$username = 'id20783410_didou';
+$password = 'Didou159@';
+$dbname = 'id20783410_protfoliosug';
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 }
 
 // Prepare and execute the SQL statement to insert the suggestion into the database
-$stmt = $conn->prepare("INSERT INTO Portfolio_Sug.Sug (name, suggestion) VALUES (?, ?)");
+$stmt = $conn->prepare("INSERT INTO `sug` (name, suggestion) VALUES (?, ?)");
 $stmt->bind_param("ss", $name, $suggestion);
 $stmt->execute();
 
