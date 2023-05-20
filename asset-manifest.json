@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.f853267d.css",
-    "main.js": "/static/js/main.53432c4c.js",
+    "main.css": "/static/css/main.107c4523.css",
+    "main.js": "/static/js/main.595e298f.js",
     "static/js/787.8c60113e.chunk.js": "/static/js/787.8c60113e.chunk.js",
     "static/media/IMG_9794.png": "/static/media/IMG_9794.f383d59d4b447a8ce48b.png",
     "static/media/2600_Silver_Background.jpg": "/static/media/2600_Silver_Background.79685281ce66913db934.jpg",
     "static/media/Resume .png": "/static/media/Resume .11d287c0697927f75e4f.png",
     "static/media/twitter_logo.png": "/static/media/twitter_logo.89d4a3b71f7ba90a3af9.png",
+    "static/media/iglogo.png": "/static/media/iglogo.046af6041ae1fffdc4a7.png",
     "static/media/1600_Sky.jpg": "/static/media/1600_Sky.5e3e80ff3585b399e119.jpg",
     "static/media/logo.png": "/static/media/logo.f2bdbc1783f276aa701a.png",
     "static/media/Facebook_Logo.png": "/static/media/Facebook_Logo.b1415231e1958f8d9ac8.png",
@@ -14,12 +15,12 @@
     "static/media/big_noodle_titling.ttf": "/static/media/big_noodle_titling.e2ebffa44fbb63381589.ttf",
     "static/media/betalogo.png": "/static/media/betalogo.3fdd7a374a575ddc1ffe.png",
     "index.html": "/index.html",
-    "main.f853267d.css.map": "/static/css/main.f853267d.css.map",
-    "main.53432c4c.js.map": "/static/js/main.53432c4c.js.map",
+    "main.107c4523.css.map": "/static/css/main.107c4523.css.map",
+    "main.595e298f.js.map": "/static/js/main.595e298f.js.map",
     "787.8c60113e.chunk.js.map": "/static/js/787.8c60113e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f853267d.css",
-    "static/js/main.53432c4c.js"
+    "static/css/main.107c4523.css",
+    "static/js/main.595e298f.js"
   ]
 }
