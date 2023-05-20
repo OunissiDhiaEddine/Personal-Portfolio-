@@ -86,7 +86,7 @@ align-self: start;
 justify-self: center;
 color: #fff;
 text-shadow: 0px 0px 5px black;
-grid-area: 3 / 2 / 4 / 4;
+  grid-area: 3 / 1 / 4 / 5; 
 font-size: calc(2vw +2vh); 
 font-family: noodle;
 width: 60vw;
@@ -371,8 +371,8 @@ margin: 0 ;
 overflow: hidden;
 display: grid; 
 grid-template-columns: .8fr repeat(2, 1.2fr) 1.3fr 0.8fr; 
-grid-template-rows: 1fr repeat(2, 1fr) 2fr 1fr; 
-   
+grid-template-rows: 1fr repeat(2, 1fr) 2fr 1fr;    
+
 }
 .Hi{
 color: #f3c026;
@@ -381,7 +381,7 @@ grid-area: 3 / 2 / 4 / 3;
 align-self: start;
 justify-self: start;
 font-size: calc(6vw + 6vh);
-
+margin-right: 15vw;
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
         animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
 }
@@ -410,6 +410,7 @@ font-family: noodle;
 
 }
 .profile {
+margin-top: 4vw;
 align-self: center;
 justify-self: end;
 width : calc(13.5vw + 14vh ); 
@@ -636,6 +637,7 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
 }
 
 }
+
 /* Laptops 1360 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 @media only screen and (min-width : 1359px ) and (max-width: 1920px){
 /* Cursor and all index effect */ 
@@ -699,7 +701,7 @@ padding: 0;
 height: 99vh;
 position: relative;
 font-family: Bignoodle , sans-serif; 
-margin: 0 ; 
+margin: 0; 
 overflow: hidden;
 display: grid; 
 grid-template-columns: .8fr repeat(2, 1.2fr) 1.3fr 0.8fr; 
@@ -742,6 +744,7 @@ font-family: noodle;
 
 }
 .profile {
+margin-top: 4vw;
 align-self: center;
 justify-self: end;
 width : calc(13.5vw + 14vh ); 
@@ -779,7 +782,7 @@ align-self: end;
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 font-family: Bignoodle ; 
-font-size: 5vw;
+font-size: calc(3vw + 3vh);
 }
 .aboutvis{
 grid-area: 1 / 2 / 2 / 3; 
@@ -788,7 +791,7 @@ align-self: end;
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 font-family: Bignoodle ; 
-font-size: 5vw;
+font-size: calc(3vw + 3vh);
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
 }
@@ -796,7 +799,7 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) bot
 grid-area: 2 / 2 / 6 / 4;
 justify-self: start;
 align-self: end;
-font-size: 3vw ;  
+font-size: calc(2vw + 1.5vh);
 font-family: noodle;
 width: 45vw;
 color: rgba(29,37,58,.9);
@@ -805,7 +808,7 @@ color: rgba(29,37,58,.9);
 grid-area: 2 / 2 / 6 / 4;
 justify-self: start;
 align-self: end;
-font-size: 3vw ;  
+font-size: calc(2vw + 1.5vh);
 font-family: noodle;
 width: 45vw;
 color: rgba(29,37,58,.9);
@@ -816,7 +819,7 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) bot
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 2 / 4 / 3 / 6;
-font-size: 2.5vw;  
+font-size: calc(2vw + 1.5vh );  
 align-self: start;
 justify-self: start;
 font-family: noodle;
@@ -826,7 +829,7 @@ width: fit-content;}
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 2 / 4 / 3 / 6;
-font-size: 2.5vw;  
+font-size: calc(2vw + 1.5vh );  
 align-self: start;
 justify-self: start;
 font-family: noodle;
@@ -839,7 +842,7 @@ width: fit-content;
 color: #fff;
 text-shadow: 0px 0px 5px black;
 grid-area: 2 / 4 / 4 / 6;
-font-size: 1.7vw ;  
+font-size: calc(1.2vw + 1vh ) ; 
 max-width: 70vw;
 width: fit-content;
 font-family: noodle;
@@ -853,7 +856,7 @@ justify-self: start;
 color: #fff;
 text-shadow: 0px 0px 5px black;
 grid-area: 2 / 4 / 4 / 6;
-font-size: 1.7vw ;  
+font-size: calc(1.2vw + 1vh ) ;  
 max-width: 70vw;
 width: fit-content;
 font-family: noodle;
@@ -869,7 +872,7 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 4 / 5 / 5 / 6; 
-font-size: 2.5vw;
+font-size: calc(2vw + 1.5vh );  
 width: fit-content;
 font-family: noodle;
 
@@ -881,7 +884,7 @@ text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 4 / 4 / 5 / 6;
 align-self: end;
 justify-self: start;
-font-size: 2.5vw; 
+font-size: calc(2vw + 1.5vh );  
 width: fit-content;
 font-family: noodle;
 -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
@@ -892,7 +895,7 @@ color: #fff;
 text-shadow: 0px 0px 5px black;
 align-self: center;
 justify-self: start;
-font-size: 1.7vw ;  
+font-size: calc(1.2vw + 1vh ) ;  
 max-width: 70vw; 
 width: fit-content;
 }
@@ -902,7 +905,7 @@ text-shadow: 0px 0px 5px black;
 grid-area: 4 / 4 / 6 / 6;
 align-self: center;
 justify-self: start ;
-font-size: 1.7vw ;  
+font-size: calc(1.2vw + 1vh ) ;
 max-width: 70vw;
 width: fit-content;
 
@@ -968,7 +971,340 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
 }
 }
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-/* Laptops 1920 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* Laptops 1360 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+@media only screen and (min-width : 1359px ) and (max-width: 1920px) and (min-height:600px) and (max-height:799px){
+/* Cursor and all index effect */ 
+*{
+cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
+
+}
+/* the logo */ 
+.logo {
+background-color: white;
+border-radius: 3vw;
+position: fixed ;
+width: 5.5vw;
+height: auto;
+top: 3vh; 
+left: 3.5vw;
+overflow: visible;
+-webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both ;  
+z-index: 2;
+}
+/* the nav bar */
+.nav {
+background-color: white;
+position: fixed;
+color:  rgba(29,37,58,.9);
+font-family: Bignoodle , sans-serif; 
+font-size: 3vw;
+display: flex;
+justify-content: space-between;
+gap: 2vw;
+right: 3vw;
+top: 3vh;
+z-index: 2;
+border-radius: 1vw;
+padding: 1vw;
+
+-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.7s both;
+
+}
+.nav a:hover {
+color: #f3c026 !important;
+        text-shadow: 0px 0px 5px #bb7e29;
+}
+.resnav{
+display: block;
+}
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+/* section 1 + */ 
+.whole {
+position: relative;
+z-index: 1;
+margin: 0;
+padding: 0;
+
+}
+.section1 {
+height: 99vh;
+position: relative;
+font-family: Bignoodle , sans-serif; 
+margin: 0; 
+overflow: hidden;
+display: grid; 
+grid-template-columns: .8fr repeat(2, 1.2fr) 1.3fr 0.8fr; 
+grid-template-rows: 1fr repeat(2, 1fr) 2fr 1fr; 
+}
+.Hi{
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+grid-area: 3 / 2 / 4 / 3;
+align-self: start;
+justify-self: start;
+font-size: calc(6vw + 6vh) ; 
+
+-webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
+}
+.name{
+color:  rgba(29,37,58,.9); 
+grid-area: 3 / 2 / 4 / 4;
+font-size:calc(3vw + 3vh) ;  
+align-self: center;
+justify-self: center;
+padding-left: 3vw;
+-webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+                
+}
+.current {
+align-self: center;
+justify-self: center;
+color: #fff;
+text-shadow: 0px 0px 5px black;
+grid-area: 3 / 2 / 5 / 4;
+font-size: calc(1.5vw + 1.5vh) ;
+font-family: noodle;
+padding-top: 2vw;
+
+-webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+                animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
+
+}
+.profile {
+align-self: center;
+justify-self: start;
+width : calc(13.5vw + 14vh ); 
+height: calc(12vw + 12vh );
+grid-area: 3 / 4 / 4 / 5;
+border-radius: 50%;
+-webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+        animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+
+}
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+/* section 2 */ 
+.section2 {
+top: 7vh ; 
+height: 90vh;
+position: relative;
+background-image: url("./Pics/2600_Silver_Background.jpg");
+border-radius: 25px;
+margin: 2vh; 
+overflow-x: hidden;
+display: grid; 
+grid-template-columns: 0.2fr repeat(2, 1fr) repeat(2, 0.5fr); 
+grid-template-rows: 1fr .5fr repeat(4, 0.5fr); 
+grid-column-gap: 1vw;
+grid-row-gap: 1vw; 
+}
+
+.about{
+grid-area: 1 / 2 / 2 / 3; 
+justify-self: center;
+align-self: end;
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+font-family: Bignoodle ; 
+font-size: calc(3vw + 3vh);
+}
+.aboutvis{
+grid-area: 1 / 2 / 2 / 3; 
+justify-self: center;
+align-self: end;
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+font-family: Bignoodle ; 
+font-size: calc(3vw + 3vh);
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+}
+.p1{
+grid-area: 2 / 2 / 6 / 4;
+justify-self: start;
+align-self: top;
+font-size: calc(1.5vw + 2vh);
+font-family: noodle;
+width: 45vw;
+color: rgba(29,37,58,.9);
+}
+.p1vis{
+grid-area: 2 / 2 / 6 / 4;
+justify-self: start;
+align-self: top;
+font-size: calc(1.5vw + 2vh);
+font-family: noodle;
+width: 45vw;
+color: rgba(29,37,58,.9);
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ; 
+}
+.h2-1{
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+grid-area: 2 / 4 / 3 / 6;
+font-size: calc(2vw + 1.5vh );  
+align-self: start;
+justify-self: start;
+font-family: noodle;
+width: fit-content;}
+
+.h2-1vis{
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+grid-area: 2 / 4 / 3 / 6;
+font-size: calc(2vw + 1.5vh );  
+align-self: start;
+justify-self: start;
+font-family: noodle;
+width: fit-content;
+-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+        animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+
+}
+.p2{
+color: #fff;
+text-shadow: 0px 0px 5px black;
+grid-area: 2 / 4 / 4 / 6;
+font-size: calc(1.2vw + 1vh ) ; 
+max-width: 70vw;
+width: fit-content;
+font-family: noodle;
+border-radius: 0;
+margin: 0;
+align-self: center;
+justify-self: start;
+
+}
+.p2vis{
+color: #fff;
+text-shadow: 0px 0px 5px black;
+grid-area: 2 / 4 / 4 / 6;
+font-size: calc(1.2vw + 1vh ) ;  
+max-width: 70vw;
+width: fit-content;
+font-family: noodle;
+border-radius: 0;
+margin: 0;
+align-self: end;
+justify-self: start;
+-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+}
+
+.h2-2{
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+grid-area: 4 / 5 / 5 / 6; 
+font-size: calc(2vw + 1.5vh );  
+width: fit-content;
+font-family: noodle;
+
+}
+
+.h2-2vis{
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+grid-area: 4 / 4 / 5 / 6;
+align-self: end;
+justify-self: start;
+font-size: calc(2vw + 1.5vh );  
+width: fit-content;
+font-family: noodle;
+-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+}
+.p3{
+color: #fff;
+text-shadow: 0px 0px 5px black;
+align-self: center;
+justify-self: start;
+font-size: calc(1.2vw + 1vh ) ;  
+max-width: 70vw; 
+width: fit-content;
+}
+.p3vis{
+color: #fff;
+text-shadow: 0px 0px 5px black;
+grid-area: 4 / 4 / 6 / 6;
+align-self: end;
+justify-self: start ;
+font-size: calc(1.2vw + 1vh ) ;
+max-width: 70vw;
+width: fit-content;
+
+font-family: noodle;
+-webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+
+}
+
+
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+
+
+/* section 3 */
+.section3 {
+top : 15vh ; 
+height: 99vh;
+position: relative;
+overflow-x: hidden;
+}
+.section3in{
+position: relative;
+height: 90vh;
+margin:  2vh ; 
+border-radius: 25px;
+background-image: url("./Pics/1600_Sky.jpg");
+display: flex;
+justify-content: center; 
+align-items: center;
+align-content: flex-start;
+gap: 5vw;
+}
+.contact{
+
+color: #f3c026;
+text-shadow: 0px 0px 5px #bb7e29;
+font-size: 6vw;
+font-family: Bignoodle ;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.4s both ;   
+}
+.facebook{
+width: 7vw;
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+}
+.twitter{
+
+width: 7vw;
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+}
+.instagram{
+width: 7vw;
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+}
+}
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+/* PCs 1920 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 @media only screen and (min-width : 1920px ) {
 /* Cursor and all index effect */ 
 *{
@@ -1112,7 +1448,7 @@ align-self: end;
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 font-family: Bignoodle ; 
-font-size: 5vw;
+font-size: calc(3vw + 3vh);
 }
 .aboutvis{
 grid-area: 1 / 2 / 2 / 3; 
@@ -1121,15 +1457,15 @@ align-self: end;
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 font-family: Bignoodle ; 
-font-size: 5vw;
+font-size: calc(3vw + 3vh);
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
 }
 .p1{
 grid-area: 2 / 2 / 6 / 4;
 justify-self: start;
-align-self: end;
-font-size: 3vw ;  
+align-self: start;
+font-size: calc(2vw + 1.5vh);
 font-family: noodle;
 width: 45vw;
 color: rgba(29,37,58,.9);
@@ -1137,8 +1473,8 @@ color: rgba(29,37,58,.9);
 .p1vis{
 grid-area: 2 / 2 / 7 / 4;
 justify-self: start;
-align-self: end;
-font-size: 3vw ;  
+align-self: start;
+font-size: calc(2vw + 1.5vh);
 font-family: noodle;
 width: 45vw;
 color: rgba(29,37,58,.9);
@@ -1149,7 +1485,7 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) bot
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 2 / 4 / 3 / 6;
-font-size: 2.5vw;  
+font-size: calc(2vw + 1.5vh );   
 align-self: start;
 justify-self: start;
 font-family: noodle;
@@ -1159,7 +1495,7 @@ width: fit-content;}
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 2 / 4 / 3 / 6;
-font-size: 2.5vw;  
+font-size: calc(2vw + 1.5vh );  
 align-self: start;
 justify-self: start;
 font-family: noodle;
@@ -1172,7 +1508,7 @@ width: fit-content;
 color: #fff;
 text-shadow: 0px 0px 5px black;
 grid-area: 2 / 4 / 4 / 6;
-font-size: 1.7vw ;  
+font-size: calc(1.2vw + 1vh ) ;
 max-width: 70vw;
 width: fit-content;
 font-family: noodle;
@@ -1186,7 +1522,7 @@ justify-self: start;
 color: #fff;
 text-shadow: 0px 0px 5px black;
 grid-area: 2 / 4 / 4 / 6;
-font-size: 1.7vw ;  
+font-size: calc(1.2vw + 1vh ) ; 
 max-width: 70vw;
 width: fit-content;
 font-family: noodle;
@@ -1202,7 +1538,7 @@ animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.
 color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 4 / 5 / 5 / 6; 
-font-size: 2.5vw;
+font-size: calc(2vw + 1.5vh );  
 width: fit-content;
 font-family: noodle;
 
@@ -1214,7 +1550,7 @@ text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 4 / 4 / 5 / 6;
 align-self: end;
 justify-self: start;
-font-size: 2.5vw; 
+font-size: calc(2vw + 1.5vh );  
 width: fit-content;
 font-family: noodle;
 -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
@@ -1225,7 +1561,7 @@ color: #fff;
 text-shadow: 0px 0px 5px black;
 align-self: center;
 justify-self: start;
-font-size: 1.7vw ;  
+font-size: calc(1.2vw + 1vh ) ;
 max-width: 70vw; 
 width: fit-content;
 }
@@ -1235,7 +1571,7 @@ text-shadow: 0px 0px 5px black;
 grid-area: 4 / 4 / 6 / 6;
 align-self: center;
 justify-self: start ;
-font-size: 1.7vw ;  
+font-size: calc(1.2vw + 1vh ) ;
 max-width: 70vw;
 width: fit-content;
 
