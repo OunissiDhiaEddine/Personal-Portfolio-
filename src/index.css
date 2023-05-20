@@ -65,7 +65,7 @@ text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 2 / 2 / 3 / 3;
 align-self: start;
 justify-self: center;
-font-size: calc(12vw + 10vh);
+font-size: calc(10vw + 10vh);
 
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
         animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
@@ -73,10 +73,10 @@ font-size: calc(12vw + 10vh);
 .name{
 color:  rgba(29,37,58,.9); 
 grid-area: 2 / 2 / 4 / 4; 
-font-size: calc(3vw + 4vh);  
+font-size: calc(3vw + 3vh);  
 align-self: center;
 justify-self: end;
-width: 80vw;
+width: 89vw;
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
         animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
                 
@@ -87,7 +87,7 @@ justify-self: center;
 color: #fff;
 text-shadow: 0px 0px 5px black;
 grid-area: 3 / 2 / 4 / 4;
-font-size: calc(2vw +3vh); 
+font-size: calc(2vw +2vh); 
 font-family: noodle;
 width: 60vw;
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
@@ -296,6 +296,13 @@ cursor: pointer;
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
+.instagram{
+width: calc(7vw + 5vh);
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+}
 }
 
 /* Laptops 1280 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
@@ -365,8 +372,7 @@ overflow: hidden;
 display: grid; 
 grid-template-columns: .8fr repeat(2, 1.2fr) 1.3fr 0.8fr; 
 grid-template-rows: 1fr repeat(2, 1fr) 2fr 1fr; 
-
-        
+   
 }
 .Hi{
 color: #f3c026;
@@ -374,7 +380,7 @@ text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 3 / 2 / 4 / 3;
 align-self: start;
 justify-self: start;
-font-size: 11vw;
+font-size: calc(6vw + 6vh);
 
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
         animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
@@ -382,7 +388,7 @@ font-size: 11vw;
 .name{
 color:  rgba(29,37,58,.9); 
 grid-area: 3 / 2 / 4 / 4;
-font-size: 4.9vw ;  
+font-size: calc(3vw + 3.5vh)  ;  
 align-self: center;
 justify-self: end;
 
@@ -396,7 +402,7 @@ justify-self: end;
 color: #fff;
 text-shadow: 0px 0px 5px black;
 grid-area: 3 / 2 / 5 / 4;
-font-size: 2.4vw; 
+font-size:calc(1.5vw + 1.5vh); 
 font-family: noodle;
 
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
@@ -406,8 +412,8 @@ font-family: noodle;
 .profile {
 align-self: center;
 justify-self: end;
-width : 21vw; 
-height: 33vh;
+width : calc(13.5vw + 14vh ); 
+height: calc(12vw + 12vh );
 grid-area: 3 / 4 / 4 / 5;
 border-radius: 50%;
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
@@ -621,9 +627,15 @@ cursor: pointer;
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
+.instagram{
+width: 7vw;
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
 
-
+}
 /* Laptops 1360 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 @media only screen and (min-width : 1359px ) and (max-width: 1920px){
 /* Cursor and all index effect */ 
@@ -693,7 +705,6 @@ display: grid;
 grid-template-columns: .8fr repeat(2, 1.2fr) 1.3fr 0.8fr; 
 grid-template-rows: 1fr repeat(2, 1fr) 2fr 1fr; 
 
-        
 }
 .Hi{
 color: #f3c026;
@@ -701,7 +712,7 @@ text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 3 / 2 / 4 / 3;
 align-self: start;
 justify-self: start;
-font-size: 11vw;
+font-size: calc(6vw + 6vh) ; 
 
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
         animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
@@ -709,7 +720,7 @@ font-size: 11vw;
 .name{
 color:  rgba(29,37,58,.9); 
 grid-area: 3 / 2 / 4 / 4;
-font-size: 4.9vw ;  
+font-size:calc(3vw + 3.5vh) ;  
 align-self: center;
 justify-self: end;
 
@@ -723,7 +734,7 @@ justify-self: end;
 color: #fff;
 text-shadow: 0px 0px 5px black;
 grid-area: 3 / 2 / 5 / 4;
-font-size: 2.4vw; 
+font-size: calc(1.5vw + 1.5vh) ;
 font-family: noodle;
 
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
@@ -733,8 +744,8 @@ font-family: noodle;
 .profile {
 align-self: center;
 justify-self: end;
-width : 21vw; 
-height: 33vh;
+width : calc(13.5vw + 14vh ); 
+height: calc(12vw + 12vh );
 grid-area: 3 / 4 / 4 / 5;
 border-radius: 50%;
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
@@ -942,6 +953,13 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
 }
 .twitter{
 
+width: 7vw;
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+}
+.instagram{
 width: 7vw;
 size: 40%;
 cursor: pointer;
@@ -1027,7 +1045,7 @@ text-shadow: 0px 0px 5px #bb7e29;
 grid-area: 3 / 2 / 4 / 3;
 align-self: start;
 justify-self: start;
-font-size: 11vw;
+font-size: calc(6vw + 6vh);
 
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
         animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;      
@@ -1035,7 +1053,7 @@ font-size: 11vw;
 .name{
 color:  rgba(29,37,58,.9); 
 grid-area: 3 / 2 / 4 / 4;
-font-size: 4.9vw ;  
+font-size:calc(3vw + 3.5vh) ;  
 align-self: center;
 justify-self: end;
 
@@ -1049,7 +1067,7 @@ justify-self: end;
 color: #fff;
 text-shadow: 0px 0px 5px black;
 grid-area: 3 / 2 / 5 / 4;
-font-size: 2.4vw; 
+font-size: calc(1.5vw + 1.5vh) ;
 font-family: noodle;
 
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 1.4s both;
@@ -1059,8 +1077,8 @@ font-family: noodle;
 .profile {
 align-self: center;
 justify-self: end;
-width : 18vw; 
-height: 30vh;
+width : calc(13.5vw + 14vh ); 
+height: calc(12vw + 12vh );
 grid-area: 3 / 4 / 4 / 5;
 border-radius: 50%;
 -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
@@ -1268,6 +1286,13 @@ animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7
 }
 .twitter{
 
+width: 7vw;
+size: 40%;
+cursor: pointer;
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+}
+.instagram{
 width: 7vw;
 size: 40%;
 cursor: pointer;

@@ -37,6 +37,7 @@ const Hometab = () => {
            <h1 className= {`${sec3vis ? 'contact' :''}`}>contact : </h1> 
             <a href="https://web.facebook.com/didou.archer.420/"><img className= {` ${sec3vis ? 'facebook' :''}`} src={require('./Pics/Facebook_Logo.png')}></img></a>
             <a href="https://twitter.com/didou_archer"><img className= {` ${sec3vis ? 'twitter' :''}`} src={require('./Pics/twitter_logo.png')}></img></a>
+            <a href="https://instagram.com/unsc_dhia_eddine?igshid=YmMyMTA2M2Y="><img className= {` ${sec3vis ? 'instagram' :''}`} src={require('./Pics/iglogo.png')}></img></a>
            </div>  
         </div>
         </div>  
