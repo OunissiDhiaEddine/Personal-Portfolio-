@@ -1,0 +1,441 @@
+
+  
+  /* Laptops 1280 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  @media only screen and (min-width: 1280px) {
+    .logo2 {
+      background-color: white;
+      border-radius: 3vw;
+      position: fixed ;
+      width: 5.5vw;
+      height: auto;
+      top: 3vh; 
+      left: 3.5vw;
+      overflow: visible;
+      -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+              animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+      z-index: 2;
+      }
+    .betalogo{
+      position: fixed;
+      width: 5vw;
+      top: 5.5vh ; 
+      overflow: visible;
+      z-index: 2;
+      left: 10vw ;
+      -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+      animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+    }
+    
+    .nav2 {
+      background-color: white;
+      position: fixed;
+      color:  rgba(29,37,58,.9);
+      font-family: Bignoodle , sans-serif; 
+      font-size: 3.5vw;
+      display: flex;
+      justify-content: space-between;
+      gap: 2vw;
+      right: 3vw;
+      top: 3vh;
+      z-index: 2;
+      border-radius: 1vw;
+      padding: 1vw;
+      -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+      animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+      }
+      .nav2 a:hover {
+        color: #f3c026 !important;
+          text-shadow: 0px 0px 0.39vw #bb7e29; 
+        }
+        .sugcont {
+            top: 14vh;
+            position: relative; 
+            border-radius: 7vw;
+            display: flex;
+            background-image: url("./Pics/2600_Silver_Background.jpg") ;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+            overflow: auto;
+            flex-direction: column;
+            gap: 3vh;
+            margin: 1vh;
+            margin-bottom: 16vh;
+            }
+              
+            .sug{
+            text-align: center;
+            font-size: 5vw;
+            color: #f3c026;
+            text-shadow: 0px 0px 0.347vw #bb7e29;
+            font-family: Bignoodle , sans-serif; 
+            -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+            animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;
+              }
+              
+              form {
+                display: flex;
+                flex-direction: column;
+              }
+              
+              input,
+              textarea {
+                width: 40vw;
+                height: 15vw;
+                margin-bottom: 3vw;
+                font-size: 2vw;
+                font-family: noodle;
+                border-radius: 1vw;
+              }
+              .namefield{
+                width: 20vw;
+                height: 5vw;
+                margin-bottom: 3vw;
+                font-size: 2vw;
+                font-family: noodle;
+              }
+              button {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                margin-bottom: 3vw;
+                font-size: 2vw;
+                font-family: noodle;
+              }
+              
+              button:hover {
+                background-color: orange;
+              }
+              
+    
+  }
+     /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  
+  
+  
+  /* Laptops 1360 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  @media only screen and (min-width: 1360px) {
+
+  
+  .logo2 {
+    background-color: white;
+    border-radius: 3vw;
+    position: fixed ;
+    width: 5.5vw;
+    height: auto;
+    top: 3vh; 
+    left: 3.5vw;
+    overflow: visible;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+            animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+    z-index: 2;
+    }
+  .betalogo{
+    position: fixed;
+    width: 5vw;
+    top: 5.5vh ; 
+    overflow: visible;
+    z-index: 2;
+    left: 10vw ;
+    -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+  }
+  
+  .nav2 {
+    background-color: white;
+    position: fixed;
+    color:  rgba(29,37,58,.9);
+    font-family: Bignoodle , sans-serif; 
+    font-size: 3.5vw;
+    display: flex;
+    justify-content: space-between;
+    gap: 2vw;
+    right: 3vw;
+    top: 3vh;
+    z-index: 2;
+    border-radius: 1vw;
+    padding: 1vw;
+    -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+    animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    }
+    .nav2 a:hover {
+      color: #f3c026 !important;
+        text-shadow: 0px 0px 0.347vw #bb7e29; 
+     }
+    .sugcont {
+    top: 14vh;
+    position: relative; 
+    border-radius: 7vw;
+    display: flex;
+    background-image: url("./Pics/2600_Silver_Background.jpg") ;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    overflow: auto;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 1vh;
+    margin-bottom: 16vh;
+    }
+      
+    .sug{
+    text-align: center;
+    font-size: 5vw;
+    color: #f3c026;
+    text-shadow: 0px 0px 0.347vw #bb7e29;
+    font-family: Bignoodle , sans-serif; 
+    -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+    animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;
+      }
+      
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      input,
+      textarea {
+        width: 40vw;
+        height: 15vw;
+        margin-bottom: 3vw;
+        font-size: 2vw;
+        font-family: noodle;
+        border-radius: 1vw;
+      }
+      .namefield{
+        width: 20vw;
+        height: 5vw;
+        margin-bottom: 3vw;
+        font-size: 2vw;
+        font-family: noodle;
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 3vw;
+        font-size: 2vw;
+        font-family: noodle;
+      }
+      
+      button:hover {
+        background-color: orange;
+      }
+      
+ 
+  } 
+  /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  
+  
+  /* Laptops 1920 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+  @media only screen and (min-width: 1920px) {
+  
+    .logo2 {
+      background-color: white;
+      border-radius: 3vw;
+      position: fixed ;
+      width: 5.5vw;
+      height: auto;
+      top: 3vh; 
+      left: 3.5vw;
+      overflow: visible;
+      -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+              animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+      z-index: 2;
+      }
+    .betalogo{
+      position: fixed;
+      width: 5vw;
+      top: 5.5vh ; 
+      overflow: visible;
+      z-index: 2;
+      left: 10vw ;
+      -webkit-animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+      animation: slide-in-blurred-left 0.6s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both ;  
+    }
+    
+    .nav2 {
+      background-color: white;
+      position: fixed;
+      color:  rgba(29,37,58,.9);
+      font-family: Bignoodle , sans-serif; 
+      font-size: 3.5vw;
+      display: flex;
+      justify-content: space-between;
+      gap: 2vw;
+      right: 3vw;
+      top: 3vh;
+      z-index: 2;
+      border-radius: 1vw;
+      padding: 1vw;
+      -webkit-animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000)  both;
+      animation: slide-in-blurred-right 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+      }
+      .nav2 a:hover {
+        color: #f3c026 !important;
+          text-shadow: 0px 0px 0.260vw #bb7e29; 
+        }
+        .sugcont {
+            top: 14vh;
+            position: relative; 
+            border-radius: 7vw;
+            display: flex;
+            background-image: url("./Pics/2600_Silver_Background.jpg") ;
+            flex-wrap: nowrap;
+            justify-content: flex-start;
+            align-items: center;
+            align-content: center;
+            overflow: auto;
+            flex-direction: column;
+            gap: 3vh;
+            margin: 1vh;
+            margin-bottom: 16vh;
+            }
+              
+            .sug{
+            text-align: center;
+            font-size: 5vw;
+            color: #f3c026;
+            text-shadow: 0px 0px 0.347vw #bb7e29;
+            font-family: Bignoodle , sans-serif; 
+            -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
+            animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;
+              }
+              
+              form {
+                display: flex;
+                flex-direction: column;
+              }
+              
+              input,
+              textarea {
+                width: 40vw;
+                height: 15vw;
+                margin-bottom: 3vw;
+                font-size: 2vw;
+                font-family: noodle;
+                border-radius: 1vw;
+              }
+              .namefield{
+                width: 20vw;
+                height: 5vw;
+                margin-bottom: 3vw;
+                font-size: 2vw;
+                font-family: noodle;
+              }
+              button {
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: #fff;
+                border: none;
+                cursor: pointer;
+                margin-bottom: 3vw;
+                font-size: 2vw;
+                font-family: noodle;
+              }
+              
+              button:hover {
+                background-color: orange;
+              }
+              
+  
+    } 
+    /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+
+    /* Keyframes */ 
+
+ @-webkit-keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-left {
+    0% {
+      -webkit-transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(-1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 100% 50%;
+              transform-origin: 100% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  
+  
+  /**
+   * ----------------------------------------
+   * animation slide-in-blurred-right
+   * ----------------------------------------
+   */
+   @-webkit-keyframes slide-in-blurred-right {
+    0% {
+      -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-blurred-right {
+    0% {
+      -webkit-transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+              transform: translateX(1000px) scaleX(2.5) scaleY(0.2);
+      -webkit-transform-origin: 0% 50%;
+              transform-origin: 0% 50%;
+      -webkit-filter: blur(40px);
+              filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0) scaleY(1) scaleX(1);
+              transform: translateX(0) scaleY(1) scaleX(1);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+  }
+  

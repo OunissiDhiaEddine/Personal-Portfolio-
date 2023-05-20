@@ -635,6 +635,15 @@ cursor: pointer;
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
+.rights{
+position: absolute;
+top: 80vh;
+text-align: center;
+font-family: noodle;
+font-size: calc(1vw + 0.5vh);
+color: white;
+}
+/*$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
 
 }
 
@@ -792,8 +801,8 @@ color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 font-family: Bignoodle ; 
 font-size: calc(3vw + 3vh);
--webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both !important;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both !important ;  
 }
 .p1{
 grid-area: 2 / 2 / 6 / 4;
@@ -969,6 +978,15 @@ cursor: pointer;
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
+.rights{
+position: absolute;
+top: 80vh;
+text-align: center;
+font-family: noodle;
+font-size: calc(1vw + 0.5vh);
+color: white;
+}
+
 }
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 /* Laptops 1360 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
@@ -1301,6 +1319,14 @@ cursor: pointer;
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
 }
+.rights{
+position: absolute;
+top: 80vh;
+text-align: center;
+font-family: noodle;
+font-size: calc(1vw + 0.5vh);
+color: white;
+}
 }
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
 
@@ -1458,8 +1484,8 @@ color: #f3c026;
 text-shadow: 0px 0px 5px #bb7e29;
 font-family: Bignoodle ; 
 font-size: calc(3vw + 3vh);
--webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both;
-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both ;  
+-webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both!important;
+animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both!important ;  
 }
 .p1{
 grid-area: 2 / 2 / 6 / 4;
@@ -1634,6 +1660,14 @@ size: 40%;
 cursor: pointer;
 -webkit-animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both;
 animation: slide-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.7s both ;
+}
+.rights{
+position: absolute;
+top: 80vh;
+text-align: center;
+font-family: noodle;
+font-size: calc(1vw + 0.5vh);
+color: white;
 }
 }
 /* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
