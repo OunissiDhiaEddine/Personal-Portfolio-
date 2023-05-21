@@ -52,7 +52,7 @@
             position: relative; 
             border-radius: 7vw;
             display: flex;
-            background-image: url("./Pics/2600_Silver_Background.jpg") ;
+            background-image: url("./Pics/sky2.jpg") ;
             flex-wrap: nowrap;
             justify-content: flex-start;
             align-items: center;
@@ -87,6 +87,8 @@
                 font-size: 2vw;
                 font-family: noodle;
                 border-radius: 1vw;
+                -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+                animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both ;
               }
               .namefield{
                 width: 20vw;
@@ -104,6 +106,8 @@
                 margin-bottom: 3vw;
                 font-size: 2vw;
                 font-family: noodle;
+                -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+                animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both ;
               }
               
               button:hover {
@@ -170,7 +174,7 @@
     position: relative; 
     border-radius: 7vw;
     display: flex;
-    background-image: url("./Pics/2600_Silver_Background.jpg") ;
+    background-image: url("./Pics/sky2.jpg") ;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
@@ -205,6 +209,8 @@
         font-size: 2vw;
         font-family: noodle;
         border-radius: 1vw;
+        -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+        animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both ;
       }
       .namefield{
         width: 20vw;
@@ -222,6 +228,8 @@
         margin-bottom: 3vw;
         font-size: 2vw;
         font-family: noodle;
+        -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+        animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both ;
       }
       
       button:hover {
@@ -286,7 +294,7 @@
             position: relative; 
             border-radius: 7vw;
             display: flex;
-            background-image: url("./Pics/2600_Silver_Background.jpg") ;
+            background-image: url("./Pics/sky2.jpg") ;
             flex-wrap: nowrap;
             justify-content: flex-start;
             align-items: center;
@@ -321,6 +329,8 @@
                 font-size: 2vw;
                 font-family: noodle;
                 border-radius: 1vw;
+                -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+                animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both ;
               }
               .namefield{
                 width: 20vw;
@@ -338,6 +348,8 @@
                 margin-bottom: 3vw;
                 font-size: 2vw;
                 font-family: noodle;
+                -webkit-animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both;
+                animation: slide-in-blurred-left 0.9s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.6s both ;
               }
               
               button:hover {

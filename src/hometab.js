@@ -38,7 +38,7 @@ const Hometab = () => {
             <a href="https://web.facebook.com/didou.archer.420/"><img className= {` ${sec3vis ? 'facebook' :''}`} src={require('./Pics/Facebook_Logo.png')}></img></a>
             <a href="https://twitter.com/didou_archer"><img className= {` ${sec3vis ? 'twitter' :''}`} src={require('./Pics/twitter_logo.png')}></img></a>
             <a href="https://instagram.com/unsc_dhia_eddine?igshid=YmMyMTA2M2Y="><img className= {` ${sec3vis ? 'instagram' :''}`} src={require('./Pics/iglogo.png')}></img></a>
-            <p className='rights'> ©2023 Ounissi Dhia Eddine. <br></br> All trademarks referenced herein are the properties of their respective owners.</p>
+            <p className='rights'> ©2023 Ounissi Dhia Eddine.Email: dhia.ounissi@etu.univ-batna2.dz <br></br> All trademarks referenced herein are the properties of their respective owners.</p>
            </div>
 
         </div>
