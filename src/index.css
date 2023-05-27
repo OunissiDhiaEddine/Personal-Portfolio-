@@ -12,7 +12,7 @@
 }
 
 /* Laptops 375 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
-@media only screen and (min-width : 374px ) and (max-width: 800px) {
+@media only screen and (min-width : 374px) and (max-width: 1270px) {
 /* Cursor and all index effect */ 
 *{
 cursor: url(https://cdn.discordapp.com/attachments/303406782104207362/315839175406649345/Overwatch.cur), auto;
